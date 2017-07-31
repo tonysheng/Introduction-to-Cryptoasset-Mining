@@ -2,12 +2,12 @@ Introduction to Cryptoasset Mining
 
 # Table of Contents
 * [Introduction](introduction.mdown)
-* [Section 1: Introducing cryptoasset mining](../section1.mdown)
+* [Section 1: Introducing cryptoasset mining](section1.mdown)
 	* What is a cryptoasset?
 	* What is mining?
 	* How much can I make?
 	* Is mining right for me?
-* [Section 2: How do I mine?](../section2.mdown)
+* [Section 2: How do I mine?](section2.mdown)
 	* How are cryptoassets mined?
 	* What hardware do I need to mine?
 		* ASIC Mining
@@ -22,7 +22,7 @@ Introduction to Cryptoasset Mining
 		* Hardware costs
 		* Electricity costs
 		* Profitability
-* Section 3: Assembling and running your miner
+* [Section 3: Assembling and running your miner](section.3.mdown)
 	* Assess electrical requirements
 	* Confirm compatability of hardware
 	* Assemble miner
@@ -30,6 +30,8 @@ Introduction to Cryptoasset Mining
 		* Windows
 		* Linux
 		* ethOS
+	* Install drivers
+	* Drivers
 	* Flashing AMD BIOS
 	* Mining software
 	* Mining pool

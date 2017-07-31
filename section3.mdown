@@ -19,7 +19,9 @@ Importantly, you want to estimate your peak electricity usage on a given circuit
 Take some time to confirm that all of your hardware works together: 
 
 [ ] Your motherboard can support the number of GPUs
+
 [ ] Your RAM and CPU are compatible with your motherboard
+
 [ ] Your PSU can support the usage of your rig
 
 Go back to Section 2 if you're unsure about any of this. 
@@ -86,9 +88,19 @@ GTX 1070 | 8-pin (150W max) | 110 | 0
 GTX 1080ti | 8-pin (150W max) | 140 | 0
 RX 580 | 8-pin (150W max) | 135 | 0
 
-This suggests that failures aren't happening due to overdraw, but due to faulty components. 
+This suggests that failures aren't happening because of overdraw, but due to faulty components. 
 
-@TODO what if you want to be super safe
+#### So how should I power my risers?
+
+First, never use the Molex to SATA adapters that come with risers. There is mounting evidence that manufacturing defects in these adapters can cause fires. These faulty adapters can melt and potentially cause fires even without overdrawing power. 
+
+Connection type | Using adapter | Recommended | 
+---|---|---|---|
+Molex | Molex to SATA (FIRE HAZARD) | Plug PSU Molex cable directly into riser | 
+6-pin | 6-pin to SATA | Plug PSU 6-pin cable directly into riser |
+SATA | SATA to SATA | Avoid altogether | 
+
+The safest way to power your risers is to plug a power cable directly from your PSU into your riser and to avoid SATA when possible. However, most rigs are powered using version 006c 6-pin to SATA adapters without issue. If you decide to go with that approach, make sure to plug no more than two risers into a single SATA ribbon cable.
 
 ## Install operating system
 
@@ -96,29 +108,90 @@ While many people prefer the simplicity of ethOS or the open source nature of Li
 
 ### Windows
 
-@TODO elaborate
+In order to install Windows on your mining rig, you'll need a USB stick and another computer capable of downloading and running the "Windows USB/DVD Download Tool". 
 
-Make boot stick. Install. 
+Simply follow the [instructions from Microsoft](https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool) to download the Windows installer to your USB stick. 
+
+Once the Windows installer is on the USB, plug it into the mining rig, turn it on, and follow the instructions.
+
+You can run Windows indefinitely without activating the software.
 
 ### Linux, ethOS, and simpleOS
 
 @TODO Link to stuff
 
+## Install drivers
+
+Next, you'll need to install the latest drivers for your video cards. 
+* [Nvidia drivers](https://www.geforce.com/drivers)
+* [AMD drivers](http://support.amd.com/en-us/download)
+
+If you're using Nvidia cards and having trouble using CUDA miners, you may need to install the [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
+
 ## Flashing AMD BIOS
+
+New miners are often disappointed with the performance of their AMD cards. They compare the hash rate of their cards with benchmarks posted online and see think their cards are 20%+ less effective. This difference can be accounted for by the card's BIOS. A good BIOS can improve the hashrate and power efficiency of an AMD card substantially. 
 
 ### What is BIOS
 
+A BIOS is a type of software that's programmed onto a specific hardware component. This software helps launch and run the component. Sometimes, the BIOS contains settings that can be modified to impact the way the component runs. 
+
+For our purposes, the most important BIOS modifications will affect power consumption and memory usage.
+
 ### Why should I flash it?
+
+The stock BIOS that comes with a new graphics card is not optimal for mining. It consumes too much power and does not hash at the highest possible rate. 
 
 ### How do I flash it?
 
-#### Install software
+#### Download software
 
-#### Take steps
+* [GPU-Z](http://www.guru3d.com/files-details/gpu-z-download-techpowerup.html): A handy software for stats on your GPUs
+* [ATIFlash](https://www.techpowerup.com/downloads/2728/atiflash-2-74): A program that lets you save and load BIOS files. You'll use this to flash your card. 
+* [AMD Pixel Clock Patcher](https://www.monitortests.com/forum/Thread-AMD-ATI-Pixel-Clock-Patcher): a utility that patches the BIOS so it's compatible with the currently installed driver
+* [Polaris BIOS Editor](https://github.com/caa82437/PolarisBiosEditor): A tool to manually edit BIOS values. This is needed if you can't find a BIOS that works perfectly for your card
 
-#### Common settings
+#### Step-by-step instructions
+
+##### 1. Backup your BIOS
+
+Some cards have a dual BIOS option. If your card has it, there's a switch near the PCI-e slot. Flip it to the "silent" position: in the direction of the HDMI ports. Doing this will preserve the original BIOS (which you can access by flipping the switch back). 
+
+Open as administrator ATIFlash, confirm your card is selected, and then save the BIOS
+
+##### 2. Check your memory type
+
+Open GPU-Z and look for your card's memory type. It should be either Samsung or Hynix
+
+##### 3. Prepare a new BIOS
+
+You can either manually create a new BIOS for your card or find a BIOS that was modded by the community. 
+
+A great place to start is [Anorak's VBIOS collection](https://anorak.tech/c/downloads). Search for your card and memory type.
+
+If you'd prefer to manually modify your BIOS, you'll need to use Polaris BIOS editor.
+
+1. Run Polaris BIOS editor as an administrator
+2. Open the backup BIOS you saved
+3. Edit the settings you want to modify
+
+The best settings depend on the card and memory type, so if you want to manually modify your BIOS, you'll need to do your own research on what to change. 
+
+##### 4. Flash your BIOS using ATIFlash
+
+Run ATIFlash as an administrator, open the modified BIOS, and press Flash. 
+
+If successful, you'll be prompted to restart your computer. Don't restart yet! You want to patch your BIOS first.
+
+##### 5. Patch your BIOS
+
+Run AMD Pixel Clock Patcher and reboot. 
 
 #### Common problems
+
+##### Bricked card
+
+You'll need to jump pins 1 + 8 by following [these instructions](https://forum.ethereum.org/discussion/9443/bricked-your-rx-480-due-to-bad-flash)
 
 ## Mining software
 

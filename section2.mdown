@@ -123,7 +123,7 @@ You'll want to get at least a Gold rated PSU for your miner if you care about el
 
 You'll also need a PSU with enough cables to power all of your components. The most common limiting feature on a PSU is the "peripheral" connectors. Ideally, you want one cable peripheral cable to power each GPU. If your GPUs aren't too power hungry, you can also power two GPUs with per peripheral cable.
 
-@TODO elaborate here ideally with diagram
+@TODO elaborate here ideally with diagram (http://cryptomining-blog.com/8354-how-to-choose-the-best-psu-for-a-multi-gpu-mining-rig/)
 
 PSUs that are "fully modular" tend to have plenty of connectors. 
 
