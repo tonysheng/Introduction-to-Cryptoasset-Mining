@@ -3,13 +3,13 @@ Introduction to Cryptoasset Mining
 # Table of Contents
 * [Introduction](../introduction.mdown)
 * [Section 1: Introducing cryptoasset mining](../section1.mdown)
-** What is a cryptoasset?
-** What is mining?
-** How much can I make?
-** Is mining right for me?
+	* What is a cryptoasset?
+	* What is mining?
+	* How much can I make?
+	* Is mining right for me?
 * [Section 2: How do I mine?](../section2.mdown)
-** How are cryptoassets mined?
-** What hardware do I need to mine?
+  * How are cryptoassets mined?
+  * What hardware do I need to mine?
 *** ASIC Mining
 *** GPU Mining
 **** Graphics Cards
