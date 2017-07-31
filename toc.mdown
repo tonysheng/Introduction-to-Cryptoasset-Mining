@@ -1,7 +1,7 @@
 Introduction to Cryptoasset Mining
 
 # Table of Contents
-* [Introduction](..introduction.mdown)
+* [Introduction](introduction.mdown)
 * [Section 1: Introducing cryptoasset mining](../section1.mdown)
 	* What is a cryptoasset?
 	* What is mining?
