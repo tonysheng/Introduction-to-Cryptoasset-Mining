@@ -1,46 +1,46 @@
 Introduction to Cryptoasset Mining
 
 # Table of Contents
-* [Introduction](../introduction.mdown)
+* [Introduction](..introduction.mdown)
 * [Section 1: Introducing cryptoasset mining](../section1.mdown)
 	* What is a cryptoasset?
 	* What is mining?
 	* How much can I make?
 	* Is mining right for me?
 * [Section 2: How do I mine?](../section2.mdown)
-  * How are cryptoassets mined?
-  * What hardware do I need to mine?
-*** ASIC Mining
-*** GPU Mining
-**** Graphics Cards
-**** Power supplies
-**** Motherboards, processors, and RAM
-**** Risers
-**** Other (e.g. SDD, Wifi stick, Keyboard, Monitor)
-*** Tips for finding stock
-** How much does it cost?
-*** Hardware costs
-*** Electricity costs
-*** Profitability
+	* How are cryptoassets mined?
+	* What hardware do I need to mine?
+		* ASIC Mining
+		* GPU Mining
+			* Graphics Cards
+			* Power supplies
+			* Motherboards, processors, and RAM
+			* Risers
+			* Other (e.g. SDD, Wifi stick, Keyboard, Monitor)
+		* Tips for finding stock
+	* How much does it cost?
+		* Hardware costs
+		* Electricity costs
+		* Profitability
 * Section 3: Assembling and running your miner
-** Assess electrical requirements
-** Confirm compatability of hardware
-** Assemble miner
-** Install operating system
-*** Windows
-*** Linux
-*** ethOS
-** Flashing AMD BIOS
-** Mining software
-** Mining pool
-** Overclocking
-** What should I mine?
+	* Assess electrical requirements
+	* Confirm compatability of hardware
+	* Assemble miner
+	* Install operating system
+		* Windows
+		* Linux
+		* ethOS
+	* Flashing AMD BIOS
+	* Mining software
+	* Mining pool
+	* Overclocking
+	* What should I mine?
 * Section 4: Maintenance and safety
-** Safety
-*** Electrical safety
-*** Cable safety
-*** Power supply safety
-** Maintenance
-*** Remote monitoring
-*** Crash management
-*** Automatic start
+	* Safety
+		* Electrical safety
+		* Cable safety
+		* Power supply safety
+	* Maintenance
+		* Remote monitoring
+		* Crash management
+		* Automatic start
