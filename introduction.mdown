@@ -1,0 +1,13 @@
+# Introduction
+
+> “I’ve got a friend who forgot he had his computer mining Bitcoins in his garage—he checked and it’s worth about $12 million today” - Jared Kenna[1]
+
+I bought my first Bitcoin in 2014 back when the price was "only" $1200. Compared with the current prices of nearly $3000, that price seems low. But compared with the sub $25 prices of the preceding five years, $1200 was incredible.
+
+The rapid rise of Bitcoin's price made overnight millionaires. Some accumulated their Bitcoins from trading and investing. Others used spare computing power to mine it--collecting stashes of Bitcoins for the cost of electricity.
+
+Today, in 2017, the difficulty of mining Bitcoin is 804,525,194,568 times harder than it was in 2010, meaning it takes that much more computing power to mine a single Bitcoin. Most individuals no longer have the computing power to mine any meaningful quantity of Bitcoin.
+
+Instead, individual miners have turned to mining other, younger cryptoassets. Newer cryptoassets are less difficult to mine and some, like Ethereum, have rapidly grown in value. This book aims to provide everything an individual would need to get started mining these cryptoassets.
+
+[1] *Meet the Bitcoin Millionaires* - Bloomberg, 2013

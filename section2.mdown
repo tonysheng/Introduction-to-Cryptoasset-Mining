@@ -1,0 +1,217 @@
+# Section 2: How do I mine?
+
+## What is needed to mine cryptoassets?
+
+As mentioned in Section 1 mining is the process of solving mathematical problems to acquire cryptoassets. In order to participate in this process, you'll need computing power, software that applies your computing power to mining, a crypto wallet to receive mining rewarsd, and most likely a "pool" of other miners that are combining their computing power to increase the chances they solve the problem
+
+Once you have your hardware set up, the rest of the process is fairly straightforward--mostly downloading and configuring software and pressing "run". However, building the miner can be quite tricky--especially if you don't have experience building computers. 
+
+## What hardware do I need to mine?
+
+### ASIC miners
+
+ASIC miners are the most straightforward hardware to mine with. These are specially designed devices built to mine one specific type of cryptoasset. If you buy an ASIC miner, the only other hardware you'll need is a power supply.
+
+Because the set-up is so simple, we won't dedicate much time to ASIC miners in this book. 
+
+### GPU miners
+
+GPU (graphics card) miners are the miners of choice for individual miners. These miners are built with consumer-grade hardware available at everday electronics stores like Newegg, Amazon, and Best Buy. While GPU miners can't compete with ASIC miners, they shine when mining "ASIC resistant" cryptoassets. 
+
+This means you'll never see a GPU miner dedicated to mining something like Bitcoin because an ASIC is thousands of times more efficient than a GPU. However, for Ethereum or ZCash, GPU miners are the fastest miners available. And they will likely stay the most efficient because Ethereum and ZCash are "ASIC resistant", meaning an ASIC is unlikely to ever get developed. 
+
+Many prefer GPU miners over ASICs for the following reasons:
+1. Resell value: if you decide you no longer want to mine, it's eaiser to sell GPUs than an ASIC
+2. Flexibility: if a given cryptoasset is no longer profitable to mine, you can easily switch to a different cryptoasset
+3. Ease of access: it can be much easier to buy the components for a GPU miner than an ASIC
+4. Peace of mind: sellers of ASIC miners tend to be foreign companies without clear return and warranty programs. When you buy components for a GPU mining rig, you are protected by your retailer's policy and manufacturer's warranty
+
+A GPU mining rig is basically a computer that's configured to run anywhere from one to eight or more graphics cards. Building a GPU mining rig is building a new PC. 
+
+#### Graphics cards
+
+As you might expect, the computing power in a GPU mining rig comes from the GPUs. The GPUs you select will determine how much you can mine and how much electricity you use. 
+
+##### AMD vs Nvidia
+
+Both AMD and Nvidia cards are popular for mining. Both makers have strengths and weaknesses. The AMD RX series (most commonly the RX470, RX480, RX570, RX580) shines at mining Ethereum and the Nvidia 10-series (most commonly the 1060, 1070, and 1080ti) are great at ZCash. 
+
+##### Video RAM (VRAM)
+
+All things equal, more VRAM leads to better performance. For example, my RX 580 8GB gets about 20% better performance than the RX 580 4GB. My GTX 1060 6GB gets about 15% better performance than my GTX 1060 3GB. 
+
+You'll also need a minimum ammount of VRAM to mine specific cryptoassets based on the size of its DAG (directed acrylic graph). Ethereum's DAG crossed 2GB this year, which means cards with fewer than 2GB of VRAM can no longer mine it. The DAG increases over time, so a higher VRAM will ensure your card can continue mining for longer. 
+
+##### Power Consumption
+
+Newer cards are more power efficient. For example, my GTX 970 (the previous generation from Nvidia) performed roughly the same as my GTX 1060 3GB, but consumed over 60% more power. So if you can afford it, getting newer cards is usually a better choice.
+
+##### Brands
+
+Not all versions of a GPU model are the same. The brand and version of a card can impact its performance, cooling, and power consumption. However, the difference is usually not too significant. A quick Google scan for any common issues should be enough due diligence on a particular brand.
+
+#### Recommended cards
+
+The most efficient cards you can get for mining today are the RX570 8GB and RX580 8GB and the GTX 1060 6GB, GTX 1070, and GTX 1080TI. The GTX 1080 is relatively less efficient as you can see in the benchmarks below. 
+
+| Card         | Maker  | Mh/s | Sols/s | Power  usage (W) | Price |
+|--------------|--------|------|--------|------------------|-------|
+| RX 580 8GB   | AMD    | 31   | 300    | 135              | $300  |
+| RX 580 4GB   | AMD    | 28   | 280    | 135              | $275  |
+| RX 570 8GB   | AMD    | 27   | 260    | 120              | $250  |
+| RX 570 4GB   | AMD    | 25   | 240    | 120              | $225  |
+| GTX 1080TI   | Nvidia | 35   | 650    | 140              | $700  |
+| GTX 1080     | Nvidia | 24   | 450    | 140              | $550  |
+| GTX 1070     | Nvidia | 30   | 420    | 110              | $450  |
+| GTX 1060 6GB | Nvidia | 24   | 310    | 90               | $300  |
+| GTX 1060 3GB | Nvidia | 21   | 270    | 90               | $250  |
+
+*Source: whattomine.com*
+
+These are estimates based on averages reported by miners around July 2017. As you can see, the AMD cards have the best performance to price ratio.
+
+#### Power supply (PSU)
+
+The power supply (PSU) is the second most important component of your rig. You'll need a general idea of which GPUs you want to run in order to select the appropriate power supply. You want to make sure that your PSU is capable of providing enough electricity to run your rig, but you don't want to spend unecessarily on a PSU that's way too big for your rig.
+
+Typically, the total wattage of a power supply is listed in its name. 
+
+@TODO picture of PSU listing
+
+##### Estimating power use
+
+You can estimate what size PSU you'll need by calculating the power requirements of your rig and adding 20% headroom. Your rig will require roughly the sum of all your GPUs plus roughly 100W for everything else. 
+
+@TODO why is headroom important
+
+Example
+
+| Component       | Description            | Power usage (W)    |
+|-----------------|------------------------|--------------------|
+| GPUs            | 6 x GTX 1060 6GB       | 540 (90W per card) |
+| Everything else | Motherboard, CPU, etc. | 100                |
+| Headroom        | 20% of the above       | 128                |
+| Total           |                        | 768W               |
+
+In this case, you'll need a PSU that can deliver at least 768W of power.
+
+##### Efficiency
+
+Miners that pay for their electricity should pay special attention to the effiency of power supplies. More efficient PSUs "waste" less energy as heat.
+
+Ineffiency is the extra electricity that is consumed for a given "load" (or energy usage) on the PSU. For example, the 6x GTX 1060 6GB rig we just built requires 640W to run. If the power supply wastes 20% of electricity, then it'll take 768W from the outlet to provide the 640W the rig needs. That 128W is inefficiently released as heat. 
+
+When you're running a miner 24/7, this cost adds up. 
+
+Power supplies are rated on their efficiency by the "80 Plus" rating that goes from Basic all the way to Platinum. A Basic 80 Plus rating means that the PSU is rated for *at least* 80% effiency at 20% load, 50% load, and 100% load. Platinum, on the other hand is *at least* 90% efficient at 20% load, 92% at 50% load, and 89% at 100% load. 
+
+
+Rating | Efficiency | Wall Wattage
+---|---|----
+Plus | 80% | 1200w
+Bronze | 82% | 1180w
+Silver | 85% | 1150w
+Gold | 87% | 1130w
+Platinum | 89% | 1110w
+Titanium | 90% | 1100w
+
+You'll want to get at least a Gold rated PSU for your miner if you care about electricity costs. 
+
+@TODO case study on power savings
+
+##### Cables
+
+You'll also need a PSU with enough cables to power all of your components. The most common limiting feature on a PSU is the "peripheral" connectors. Ideally, you want one cable peripheral cable to power each GPU. If your GPUs aren't too power hungry, you can also power two GPUs with per peripheral cable.
+
+@TODO elaborate here ideally with diagram
+
+PSUs that are "fully modular" tend to have plenty of connectors. 
+
+#### Motherboards, processors, and RAM
+
+The remaining components can be selected based on price. You don't need high performance motherobards, CPUs, or RAM. Get the cheapest hardware that can support the GPUs you want to run. The one thing to keep in mind is that your motherboard will determine what type of CPU and RAM you can use. 
+
+##### Motherboards
+
+The most important feature of your motherboard is the number of PCI-e expansion slots. One slot is required for each GPU. It doesn't matter whether it's PCI-e x16 or PCI-e x1--either will work. 
+
+Some people have trouble getting their motherboard to detect all of their GPUs. This problem can be avoided by Googling the name  of the motherboard and mining. Oftentimes this issue can be resolved by modifying your BIOS settings, but it's easier to just buy a motherboard that works out of the box. 
+
+@TODO picture of specs showing the PCI-e slots
+
+Take note of the type of CPU and RAM the motherboard is designed to support. Most miners use motherboards designed for Intel CPUs. The vast majority fo these motherboards will support either LGA 1150 or LGA 1151 Intel chips. The motherboard will also specify whether it takes DDR3 or DDR4 RAM. 
+
+##### CPUs and RAM
+
+As long as your CPU and RAM type fits that of your motherboard, you shouldn't have any issues. Most mining rigs run fine on the cheapest CPU and RAM you can find. You'll want at least 4GB of RAM. Some people like having 8GB, but it's not strictly necessary.
+
+#### PCI-e Risers
+
+Perhaps the most frustrating component in building a mining rig is the PCI-e riser. Because there isn't enough physical space on the motherboard, each GPU in a mining rig connects to the motherboard via a PCI-e Riser. Each riser has three connections: (1) it connects to the PCI-e slot on the motherboard, (2) it connects to the GPU, and (3) it connects to the power supply. 
+
+Risers are often cheaply made and unreliable, with many miners reporting dead on arrival packs of risers. Moreover, mistakes in assembling your risers (poor choice of cables, insecure connections) can lead to damaged hardware and in some unlocky cases, fire. 
+
+There are several versions of risers. The most common versions are 006, 006c, and 007. Most risers are "powered" (compared with "unpowered"). Get powered 006c risers. 
+
+The reason 006c risers are the best is the power connector. Version 006c risers take 6-pin power, which is less likely to overdraw power compared with Molex and SATA connections. 
+
+@TODO more cautionary tales on risers
+
+The safest way to power your risers is by directly connecting your riser to your PSU with a 6+2-pin to 6+2-pin cable. However, many people have been mining for years connecting their riser to a SATA ribbon cable that's connected to the PSU via a 6-pin to SATA adapter (that comes with the riser).
+
+If your PSU has enough 6+2-pin (often labled as VGA) slots to power both your risers and GPUs, you should definitely avoid the SATA cables altogether and only use those cables. But if you're not mining with power hungry cards like the GTX 1080ti, you could be fine if you're connecting 1 or 2 risers to each SATA cable. 
+
+@TODO diagrams
+
+#### Other
+
+Some other components you might need include
+* SSD: for storage. 32GB is almost always enough. An SSD is a good idea simply for the convenience of faster boot times. You might go through lots of trial and error setting up your miner. An extra minute or two for each reboot can add up. 
+* SSD cable: most SSDs don't come with the cable required to plug it in
+* On-off switch: to turn on and off your miner
+* Wifi stick: to connect to the internet if an ethernet connection is not available
+* Keyboard, mouse, and monitor: you'll need to be able to connect each of these to your rig to set it up. In the future, you can set up remote desktop to manage it without a monitor, but it's easier to have these hardware to start
+* USB stick: for installing Windows
+
+### Tips for finding stock
+
+When the crypto markets are up, mining enthusiasim increases and hardware starts to get scarce. During the summer of 2017, RX series cards were never in stock online for more than a few minutes.
+
+Here are some resources to help you find stock:
+* nowinstock.net
+* /r/buildapcsales
+* craigslist and ebay
+
+## How much does it cost?
+
+The fixed cost of your miner is the sum of all your hardware costs. This can be as little as ~$1000 for a 2-3 card mining rig or up to $4000 for a bigger rig. You should expect to spend about $500 on non-GPU costs (the cost is higher the more GPUs you add). 
+
+The variable cost is electricity. You can estimate how much your electric bill will go up by using one of the mining profitability calculators. Enter your electricity rate, select the GPUs you want to use, and run the calculator. This estimation is lower than your actual usage, because the calculator only factors in electricity used by your GPU. The rest of your rig is also using ~100W of power. Plus, your PSU is "wasting" anywhere between 10% and 20%+ of energy depending on its efficiency.
+
+If you're mining in a hotter climate, any cooling also costs electricity--whether that's fans or AC. 
+
+@TODO table of daily electricity costs by card 
+
+In Section 3, we'll talk about mining software and mining pools--some of which take a fee on your mining proceeds. It's usually not much (1-2%), but this is another cost to factor into your profitability calculations. 
+
+Resources
+* whattomine.com
+* mycryptobuddy.com
+* nicehash profitability
+
+## Summary
+
+* GPU mining hardware is mostly about the GPUs
+* Pick an efficient PSU that can adequately power your rig
+* The number of PCI-e expansion slots on your Motherboard determines how many GPUs you can run
+* Your CPU and RAM type depend on your motherboard
+* Pay extra attention to how you power your risers, as this is the most common cause of issues
+* Use tools like nowinstock.net to buy hard to find GPUs
+* Think comprehensively about your costs--it's not just the wattage used by each GPU
+
+
+
+
+
+
+

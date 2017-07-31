@@ -1,0 +1,142 @@
+# Section 3: Assembling and running your miner
+
+The easiest part of assembling a miner is putting together hardware components. Most of the steps are impossible to mess up. However, there are a few common mistakes that can create serious safety hazards. We'll spend some extra time on those common mistakes in this section.
+
+Most people spend the majority of their set up time configuring software and optimizing graphics cards. This includes downloading and installing all your software (e.g. operating system, drivers, miners) and configuring your cards (e.g. BIOS modifications, overlcocking). Much of the configuration is case-by-case, but we'll share techniques to get the most of *your* cards. 
+
+## Assess electrical requirements
+
+First, make sure that the eletrical circuits in your space can support the wattage of your miner. 
+
+https://bitcoin.stackexchange.com/questions/4692/how-many-watts-can-i-safely-draw-from-a-typical-us-home-circuit-for-bitcoin-mini
+
+@TODO enumerate steps to estimate support of circuit
+
+Importantly, you want to estimate your peak electricity usage on a given circuit including your miner. If it exceeds the capacity of your circuit, you are going to trip breakers or worse. 
+
+## Confirm compatability of hardware
+
+Take some time to confirm that all of your hardware works together: 
+
+[ ] Your motherboard can support the number of GPUs
+[ ] Your RAM and CPU are compatible with your motherboard
+[ ] Your PSU can support the usage of your rig
+
+Go back to Section 2 if you're unsure about any of this. 
+
+## Assemble miner
+
+### Checking the basic components work
+
+#### 1. Unbox the motherboard
+#### 2. Connect the CPU and CPU fan
+#### 3. Install RAM
+#### 4. Connect SSD
+#### 5. Connect On/Off switch
+#### 6. Connect ethernet or USB Wifi stick
+#### 7. Connect a GPU to a riser
+#### 8. Connect riser to motherboard
+#### 9. Connect PSU to:
+##### 9.1. Motherboard
+##### 9.2. CPU
+##### 9.3. SSD
+##### 9.4. Riser
+##### 9.5. GPU
+##### 10. Connect Monitor to the GPU
+#### 11. Connect keyboard and mouse
+
+Power on the PSU and turn it on. If the fans start spinning, you're in good shape. You should also see the monitor turn on. 
+
+You will be able to install the rest of your GPUs in this way, but first, you'll want to install your operating system. If you have AMD cards, you'll likely want to edit the BIOS settings to get better performance. This is better done with one card connected at a time, so you'll want to flash your cards before connecting all of them to the rig.
+
+### What's the best and safest way to power my risers?
+
+![Melted Molex to Sata adapter](https://www.technibble.com/forums/proxy.php?image=http%3A%2F%2Fs32.postimg.org%2Flhi8a4n1x%2F20160522_001809.jpg&hash=164afbfab313451431e0c2866efc0322)
+
+The component most likely to fail is the power adapter that comes with PCI-e risers. The faulty adapter is almost always a Molex to SATA adapter that works like this: the molex end connects directly to the riser (version 006) and the SATA end connects to a SATA ribbon from the power supply.
+
+The community disagrees with the root cause of these failures. Some think this happens when a riser draws more power than SATA can safely transfer. Others think low quality components cause the failures (https://www.youtube.com/watch?v=TataDaUNEFc&app=desktop).
+
+The one thing that is completely clear: stay away from Molex to SATA adapters. 
+
+#### How much power can a riser safely draw?
+
+The connector type determines how much power a riser can safely draw.
+
+Connector | Max power
+---|---|
+6-pin | 75W
+Molex | 132 W
+SATA | 54 W
+
+As you can see, SATA is ratest for the lowest wattage, and is thus most at risk for overdraw. If SATA is present at any point in your power chain, the max you can draw is 54W.
+
+#### How much power does a riser draw?
+
+The main source of power for a GPU comes directly from the PSU to the GPU via a 6+2pin connection. The remainder of the power comes from the PCI-e riser. The PCI-e specification allows for up to 75W to be drawn from the PCI-e slot, so the max wattage a riser can draw is 75W.
+
+The GPU will take either a 6-pin or 8-pin connection directly from the PSU. A 6-pin connection provides up to 75W of power, while an 8-pin (or 6+2 pin) can provide up to 150W. 
+
+A GPU will draw power directly from the PSU first, then take any additional power from the riser. To estimate power draw from the risers, subtract total power usage from the max power the GPU receives directly. Some examples below:
+
+Card | GPU connector type | Power required | Power from riser
+---|---|---|----|
+GTX 1060 | 6-pin (75W max) | 90 | 15
+GTX 1070 | 8-pin (150W max) | 110 | 0
+GTX 1080ti | 8-pin (150W max) | 140 | 0
+RX 580 | 8-pin (150W max) | 135 | 0
+
+This suggests that failures aren't happening due to overdraw, but due to faulty components. 
+
+@TODO what if you want to be super safe
+
+## Install operating system
+
+While many people prefer the simplicity of ethOS or the open source nature of Linux, Windows is the easiest way to get started. 
+
+### Windows
+
+@TODO elaborate
+
+Make boot stick. Install. 
+
+### Linux, ethOS, and simpleOS
+
+@TODO Link to stuff
+
+## Flashing AMD BIOS
+
+### What is BIOS
+
+### Why should I flash it?
+
+### How do I flash it?
+
+#### Install software
+
+#### Take steps
+
+#### Common settings
+
+#### Common problems
+
+## Mining software
+
+* A few choices for whatever you want to mine
+* Complicated and surprisingly political
+* Popular softwares for popularly mined cryptos
+
+## Mining pools
+
+* Why do pools matter
+* Why to avoid the biggest pools
+* How do I get paid?
+* Can I trust my pool? 
+
+## Overclocking
+
+## What should I mine?
+
+* Profitability
+* Ease of use
+* Belief
