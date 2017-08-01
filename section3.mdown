@@ -94,11 +94,11 @@ This suggests that failures aren't happening because of overdraw, but due to fau
 
 First, never use the Molex to SATA adapters that come with risers. There is mounting evidence that manufacturing defects in these adapters can cause fires. These faulty adapters can melt and potentially cause fires even without overdrawing power. 
 
-Connection type | Using adapter | Recommended | 
+Connection type | Using adapter | Recommended 
 ---|---|---|---|
-Molex | Molex to SATA (FIRE HAZARD) | Plug PSU Molex cable directly into riser | 
-6-pin | 6-pin to SATA | Plug PSU 6-pin cable directly into riser |
-SATA | SATA to SATA | Avoid altogether | 
+Molex | Molex to SATA (FIRE HAZARD) | Plug PSU Molex cable directly into riser
+6-pin | 6-pin to SATA | Plug PSU 6-pin cable directly into riser
+SATA | SATA to SATA | Avoid altogether
 
 The safest way to power your risers is to plug a power cable directly from your PSU into your riser and to avoid SATA when possible. However, most rigs are powered using version 006c 6-pin to SATA adapters without issue. If you decide to go with that approach, make sure to plug no more than two risers into a single SATA ribbon cable.
 
@@ -213,13 +213,13 @@ For whatever reason, one software might be more stable on your rig than others. 
 
 ### Popular mining software
 
-Miner | Supported cryptoassets | Pros | Cons |  
+Miner | Supported cryptoassets | Pros | Cons
 ---|---|---|---|---|
-[Ethminer](https://github.com/Genoil/cpp-ethereum/) | ETH | Simple, no fee | No dual-mining, fewer customizations |
-[Claymore](https://bitcointalk.org/index.php?topic=1433925.0) Dual Ethereum Miner | ETH, DCR, LBRY, SIA | 
-[EWBF's CUDA Zcash Miner](https://bitcointalk.org/index.php?topic=1707546.0) | ZEC | Efficient | No AMD support |
-[Nicehash Miner](https://bitcointalk.org/index.php?topic=1274983.0) | Close to all | Automatically picks most profitable cryptoassets to mine, pays out in BTC | Higher fees |
-[ccminer](https://bitcointalk.org/index.php?topic=826901.0) | Various Altcoins (e.g. Groestl, X11) | Supports less common cryptoassets | ?? | 
+[Ethminer](https://github.com/Genoil/cpp-ethereum/) | ETH | Simple, no fee | No dual-mining, fewer customizations
+[Claymore](https://bitcointalk.org/index.php?topic=1433925.0) Dual Ethereum Miner | ETH, DCR, LBRY, SIA
+[EWBF's CUDA Zcash Miner](https://bitcointalk.org/index.php?topic=1707546.0) | ZEC | Efficient | No AMD support
+[Nicehash Miner](https://bitcointalk.org/index.php?topic=1274983.0) | Close to all | Automatically picks most profitable cryptoassets to mine, pays out in BTC | Higher fees
+[ccminer](https://bitcointalk.org/index.php?topic=826901.0) | Various Altcoins (e.g. Groestl, X11) | Supports less common cryptoassets | ?? 
 
 Which miner you use depends largely on the cryptoasset you want to mine. If you want Bitcoin, Nicehash is the way to go. If you want Ethereum, try both Ethminer and Claymore. If you want to dual mine, Claymore is the only way to go.
 
@@ -248,7 +248,7 @@ For new miners, the biggest pool might seem like the obvious choice: more miners
 * **Hashing Power**: Overall hashing power across all miners in the pool
 
 Pool | Fee | Min Payout | VarDiff | Monitoring | Server Locations | Coins | Payment Type | Hashing Power
----|---|----|----|----|----|----|----|----|----|----|----|----|----|
+---|---|----|----|----|----|----|----|----|
 [**AlpEreum**](https://www.alpereum.ch/) | 0.50% | 0.05 | Yes | Yes | Asia, EU, US | ETH | Prop | 68.31 GH/s
 [**Dwarfpool**](https://DwarfPool.com/) | 1.0% | 0.05 | No | Yes | Asia, EU, US | ETH, ZEC, XMR, EXP | HBPPS | 4.5 TH/s
 [**Ethermine**](https://ethermine.org/) | 1.00% | 0.10 | No | Yes | Asia, EU, US | ETH | PPLNS | 10.1 TH/s
