@@ -95,7 +95,7 @@ This suggests that failures aren't happening because of overdraw, but due to fau
 First, never use the Molex to SATA adapters that come with risers. There is mounting evidence that manufacturing defects in these adapters can cause fires. These faulty adapters can melt and potentially cause fires even without overdrawing power. 
 
 Connection type | Using adapter | Recommended 
----|---|---|---|
+---|---|---|
 Molex | Molex to SATA (FIRE HAZARD) | Plug PSU Molex cable directly into riser
 6-pin | 6-pin to SATA | Plug PSU 6-pin cable directly into riser
 SATA | SATA to SATA | Avoid altogether
@@ -214,7 +214,7 @@ For whatever reason, one software might be more stable on your rig than others. 
 ### Popular mining software
 
 Miner | Supported cryptoassets | Pros | Cons
----|---|---|---|---|
+---|---|---|---|
 [Ethminer](https://github.com/Genoil/cpp-ethereum/) | ETH | Simple, no fee | No dual-mining, fewer customizations
 [Claymore](https://bitcointalk.org/index.php?topic=1433925.0) Dual Ethereum Miner | ETH, DCR, LBRY, SIA
 [EWBF's CUDA Zcash Miner](https://bitcointalk.org/index.php?topic=1707546.0) | ZEC | Efficient | No AMD support
