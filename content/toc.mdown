@@ -22,7 +22,7 @@ Introduction to Cryptoasset Mining
 		* Hardware costs
 		* Electricity costs
 		* Profitability
-* [Section 3: Assembling and running your miner](section.3.mdown)
+* [Section 3: Assembling and running your miner](section3.mdown)
 	* Assess electrical requirements
 	* Confirm compatability of hardware
 	* Assemble miner
@@ -37,12 +37,9 @@ Introduction to Cryptoasset Mining
 	* Mining pool
 	* Overclocking
 	* What should I mine?
-* Section 4: Maintenance and safety
-	* Safety
-		* Electrical safety
-		* Cable safety
-		* Power supply safety
+* [Section 4: Maintenance and protips](section4.mdown)
 	* Maintenance
 		* Remote monitoring
 		* Crash management
 		* Automatic start
+	* Protips

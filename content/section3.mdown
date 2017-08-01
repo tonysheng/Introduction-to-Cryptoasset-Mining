@@ -279,7 +279,7 @@ Try Afterburner first and if it's not meeting your needs, try the others.
 
 ### Recommended settings
 
-![MSI Afterburner](img/afterburner.png)
+![MSI Afterburner](../img/afterburner.png)
 
 The goal with overclocking is to maximize performance while minimizing power draw (and temperature).
 
