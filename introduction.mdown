@@ -10,4 +10,6 @@ Today, in 2017, the difficulty of mining Bitcoin is 804,525,194,568 times harder
 
 Instead, individual miners have turned to mining other, younger cryptoassets. Newer cryptoassets are less difficult to mine and some, like Ethereum, have rapidly grown in value. This book aims to provide everything an individual would need to get started mining these cryptoassets.
 
+Getting started involves an endless number of tiny decisions. What brand of GPU should I get? What coin should I mine? What should I set my memory clock to on an RX570 mining Ethereum? Some of these decisions are critical and some will have no effect on your outcomes whatsoever. This book aims to guide the reader through all of these decisions--spending extra time on the critical ones and glossing over the unimportant ones. It's the book I wish I had when I got started. I hope it's helpful.
+
 [1] *Meet the Bitcoin Millionaires* - Bloomberg, 2013

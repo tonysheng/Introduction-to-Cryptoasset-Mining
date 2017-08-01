@@ -195,16 +195,75 @@ You'll need to jump pins 1 + 8 by following [these instructions](https://forum.e
 
 ## Mining software
 
-* A few choices for whatever you want to mine
-* Complicated and surprisingly political
-* Popular softwares for popularly mined cryptos
+There are usually only a couple mining programs in use for a given cryptoasset, but which one should you use? 
+
+If there are only a few mining programs and they all seem reputable, your best bet is to just try each of them and see which you prefer. Some things to consider when assessing programs:
+
+### Profitability
+
+The overall profitability of the miner is its hashing performance minus any fees. For example, most Ethereum miners use either Genoil's Ethminer or Claymore. Ethminer doesn't charge a developer fee, but Claymore charges 1%. You'd need Claymore to perform at least 1% better for it to be more profitable than Ethminer. 
+
+### Ease of use and customizability
+
+Some miners are operated using basic command line scripts while others have graphical interfaces. Some have seemingless endless custom funtions that range from open APIs that let you monitor your system to commands that limit the maximum fan speed of your GPUs.
+
+### Stability
+
+For whatever reason, one software might be more stable on your rig than others. This is another good reason to test each of the softwares to see which one works best for you.
+
+### Popular mining software
+
+Miner | Supported cryptoassets | Pros | Cons |  
+---|---|---|---|---|
+[Ethminer](https://github.com/Genoil/cpp-ethereum/) | ETH | Simple, no fee | No dual-mining, fewer customizations |
+[Claymore](https://bitcointalk.org/index.php?topic=1433925.0) Dual Ethereum Miner | ETH, DCR, LBRY, SIA | 
+[EWBF's CUDA Zcash Miner](https://bitcointalk.org/index.php?topic=1707546.0) | ZEC | Efficient | No AMD support |
+[Nicehash Miner](https://bitcointalk.org/index.php?topic=1274983.0) | Close to all | Automatically picks most profitable cryptoassets to mine, pays out in BTC | Higher fees |
+[ccminer](https://bitcointalk.org/index.php?topic=826901.0) | Various Altcoins (e.g. Groestl, X11) | Supports less common cryptoassets | ?? | 
+
+Which miner you use depends largely on the cryptoasset you want to mine. If you want Bitcoin, Nicehash is the way to go. If you want Ethereum, try both Ethminer and Claymore. If you want to dual mine, Claymore is the only way to go.
+
+A good way to stay current on the best performing miners is to see what mining pools suggest, which is our next topics. 
 
 ## Mining pools
 
-* Why do pools matter
-* Why to avoid the biggest pools
-* How do I get paid?
-* Can I trust my pool? 
+Most individual miners mine with a group of other miners (a pool) instead of mining on their own. Individual miners won't have a high enough hashrate to solve blocks regularly enough to get a payout. Pools solve this problem by grouping the hashing power of lots of miners, increasing the likelihood the black is solved by the pool, and then distributes the rewards to the members of the pool. 
+
+### How to choose a pool
+
+For new miners, the biggest pool might seem like the obvious choice: more miners means more solved blocks which means more stable rewards. However, choice of pool can have important consequences both on your mining experience and the impact to the community. 
+
+#### Example pools for Ethereum
+
+(currently copied from https://www.reddit.com/r/EtherMining/wiki/software/pools) 
+
+* **Pool**: Collection of miners
+* **Fee**: Cost to mine on the pool
+* **Min Payout**: How how you need to mine before Ether is sent to your wallet
+* **VarDiff**: Your share difficulty will rise or fall depending on your overall hashrate. This ensures that low-hashrate users don't get sent difficult blocks, and high-hashrate users aren't sent easy blocks.
+* **Monitoring**: View your hashrate and contributions
+* **Server Location**: Where the server is geographically located
+* **Coins**: What coins you can mine on the pool
+* **Payment Type**: See above chart for 'Payment Methods'
+* **Hashing Power**: Overall hashing power across all miners in the pool
+
+Pool | Fee | Min Payout | VarDiff | Monitoring | Server Locations | Coins | Payment Type | Hashing Power
+---|---|----|----|----|----|----|----|----|----|----|----|----|----|
+[**AlpEreum**](https://www.alpereum.ch/) | 0.50% | 0.05 | Yes | Yes | Asia, EU, US | ETH | Prop | 68.31 GH/s
+[**Dwarfpool**](https://DwarfPool.com/) | 1.0% | 0.05 | No | Yes | Asia, EU, US | ETH, ZEC, XMR, EXP | HBPPS | 4.5 TH/s
+[**Ethermine**](https://ethermine.org/) | 1.00% | 0.10 | No | Yes | Asia, EU, US | ETH | PPLNS | 10.1 TH/s
+[**Ethpool**](http://ethpool.org) | 1.00% | 5.00 | Yes | Yes | Asia, EU, US | ETH | Solo | 1.5 TH/s
+[**EthereumPool**](http://ethereumpool.co/) | 1.00% | 0.10 | Yes | Yes | EU | ETH | PPLNS | 15.1 GH/s
+[**MinerGate** *](https://minergate.com/) | 1 - 1.5% | 0.00 | Yes | Yes | US | ETH, BTC, LTX, DSH, ETC, XMR, ZEC, etc... | PPS, PPLS | 33.2 GH/s
+[**Nanopool**](https://nanopool.org/) | 1.0% | 0.05 | Yes | Yes | Asia, EU, US | ETH, ETC, PASC, SC, ZEC, XMR | PPLNS | 4.5 TH/s
+
+@TODO ask for permission to use this block or find a source
+
+#### The risk of joining the largest pool
+
+If a single pool starts mining more than 50% of the blocks, the community is at risk of a 51% attack. Blockchain consensus is reached by majority. If one group is validating the majority (51%+) of transactions, it can manipulate the public ledger (blockchain) at will. 
+
+At the time of writing Ethermine has 27.6% of the total hashrate. All things equal, a miner would be helping the community by mining with a pool that was not at risk of reaching 51%. 
 
 ## Overclocking
 
