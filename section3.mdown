@@ -265,7 +265,37 @@ If a single pool starts mining more than 50% of the blocks, the community is at 
 
 At the time of writing Ethermine has 27.6% of the total hashrate. All things equal, a miner would be helping the community by mining with a pool that was not at risk of reaching 51%. 
 
-## Overclocking
+## Overclocking (and underpowering)
+
+### What is overclocking?
+
+Overclocking is the process of using software to change the settings of your card. These settings can impact performance, power usage, and temperature. Whether you're mining with AMD or Nvidia cards, some amount of overclocking will be required to reach optimal mining performance. In most cases, you'll be able to get a better hashrate with lower power draw by overclocking and underpowering. 
+
+### Download software
+
+[MSI Afterburner](https://us.msi.com/) is the most popular overclocking software, but you can use [Sapphire Trixx](http://www.sapphiretech.com/catapage_tech.asp?cataid=291&lang=eng) for AMD cards, [ASUS GPU Tweak](https://www.asus.com/us/site/graphics-cards/gpu-tweak-ii/) and so on.
+
+Try Afterburner first and if it's not meeting your needs, try the others. 
+
+### Recommended settings
+
+![MSI Afterburner](img/afterburner.png)
+
+The goal with overclocking is to optimize the 
+
+### 
+
+### Common problems
+
+#### My hashrate is lower after overclocking
+
+If you overclock beyond what your card can handle, it will perform worse than if you didn't overclock it. For example, when I go over 2100 memory clock on my RX580 8GB, my ETH hashrate will drop from ~28 to 20 (and lower as the clock goes higher).
+
+#### My GPU is crashing
+
+GPU crash can be caused by one or both of two related problems: (1) overclocking too much (2) underpowering too much.
+
+If you exceed the memory or core clock that your GPU can handle, it can cause instability and crash the card. On the flip-side, if you're undervolting or underpowering your card, your card might not be getting enough power to run properly. Either or some combination of both could cause crashes. 
 
 ## What should I mine?
 
