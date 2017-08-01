@@ -281,9 +281,33 @@ Try Afterburner first and if it's not meeting your needs, try the others.
 
 ![MSI Afterburner](img/afterburner.png)
 
-The goal with overclocking is to optimize the 
+The goal with overclocking is to maximize performance while minimizing power draw (and temperature).
 
-### 
+#### Increasing hash rate
+
+The two settings that will improve performance are Core Clock and Memory Clock. Different cryptoassets respond differently to changes in these clocks. Ethereum, for example, is impacted most by memory clock whereas Zcash is more impacted by core clock. This means there isn’t a one-size-fits-all setting for a specific graphics card.
+
+Moreover, different versions of the same graphics card respond differently to Core and Memory boosts. Just because one version of the RX580 can handle +200MHz memory doesn’t mean all RX580s can handle it. 
+
+#### Minimizing power draw
+
+For most cards, you can significantly reduce power draw without impacting performance. For AMD cards, this is primarily done reducing Core Voltage (“undervolting”) and for Nvidia cards, reducing the Power Limit.
+
+For example, a RX 580 will hash the the same even if it’s Core Voltage is reduced by 100 or more. And the performance of GTX cards shouldn’t be impacted by a Power Limit reduction to 70%. 
+
+#### Managing temperature
+
+There’s a myth that mining will ruins GPUs. However, there’s little to no evidence that this is the case--especially taking into account undervolting and underpowering. The overclock settings of mining cards should actually increase the longevity of the cards.
+
+However, high temperatures *will* wear out the components and reduce the life span of a GPU. So keeping the cards at a reasonable temperature should be a priority. Miners have differing opinions on the optimal temperature range, but mostly agree that anything over 80 degrees Celsius is too much. Personally, I like to run my cards well below 70 degrees Celsius.
+
+Your weapon of choice in managing heat is fan speed. Either manually set the fan to a speed that keeps the card cool or set the fan to auto so it responds to the temperature of your card. In the newest version of Afterburner, you can also draw a custom curve that lets you decide what fan speed should run at a given GPU temperature. 
+
+#### Overclock benchmarks
+
+The best way to find overclock settings that work well for your card and cryptoasset is Google. As far as I know, there’s no centralized database (yet). Make sure to be specific with your card details when searching. For example: `GIGABYTE RX 580 8GB STRIX Ethereum Overclock Settings` will yield better results than `RX 580 Mining Overclock Settings`. 
+
+@TODO start a dataset
 
 ### Common problems
 
@@ -299,6 +323,8 @@ If you exceed the memory or core clock that your GPU can handle, it can cause in
 
 ## What should I mine?
 
-* Profitability
-* Ease of use
-* Belief
+Most people mine to maximize returns, so picking the most profitable cryptoasset to mine is the natural choice. Use a site like whattomine to input your hashing and power stats to generate a list of the most profitable cryptoassets to mine. This will ensure that you mine the most profitable coin day to day.
+
+However, it’s important to consider the volatility of the cryptoasset market. Cryptoassets with smaller market capitalization are more volatile than, say, Bitcoin. This means mining and holding less established coins could have tremendous upside but could also lose a lot of value over time. 
+
+If you’re comfortable speculating on the price of a cryptoasset, you’ll want to make sure that you believe in the long-term prospects of the cryptoasset you mine. Otherwise, it might be best to convert your mining proceeds to something more stable like Bitcoin (Nicehash will automatically do this for you) or a cryptoasset you believe in.
