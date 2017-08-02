@@ -1,3 +1,5 @@
+[<< home](../README.md)	
+
 # Introduction
 
 > “I’ve got a friend who forgot he had his computer mining Bitcoins in his garage—he checked and it’s worth about $12 million today” - Jared Kenna[1]
@@ -26,5 +28,5 @@ Getting started with cryptoasset mining involves an endless number of tiny decis
 
 [1] *Meet the Bitcoin Millionaires* - Bloomberg, 2013
 
-[<< home](../README.md)			[Section 1: Introducting cryptoasset mining](section1.mdown)
+[Section 1: Introducting cryptoasset mining >>](section1.mdown)
 
