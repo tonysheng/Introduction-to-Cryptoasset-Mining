@@ -125,7 +125,24 @@ You'll also need a PSU with enough cables to power all of your components. The m
 
 @TODO elaborate here ideally with diagram (http://cryptomining-blog.com/8354-how-to-choose-the-best-psu-for-a-multi-gpu-mining-rig/)
 
-PSUs that are "fully modular" tend to have plenty of connectors. 
+PSUs that are "fully modular" tend to have plenty of connectors.
+
+##### Using multiple PSUs on one miner
+
+For rigs that require over 1000W, buying two smaller PSUs is usually cheaper than buying a single large one. A EVGA SuperNOVA  550 G2 is $69.99 while an EVGA SuperNOVA 1000 G2 is $209.99. You can get three 550s for the price of one 1000. 
+
+You can connect the PSUs with [Add2PSU](https://www.amazon.com/gp/product/B009P98Q8U/r). The adapter will make sure the two PSUs start and stop together. 
+
+There is risk of back-feed which can break components and potentially cause a fire. Best practices seem to be:
+* ALWAYS power a GPU with a single PSU (some GPUs like the GTX 1080ti take two power inputs, if you use one from PSU 1 and another from PSU 2
+
+Some people recommend you power all the risers with the same PSU that powers the Motherboard and CPU. Others say you should power each riser/GPU combo with the same PSU. It’s probably worth doing some research of your own to decide which route to go. 
+
+@TODO get to bottom of this
+
+![ethermining guide diagram for 2 PSU miner](../img/2psu_setup_diagram.jpg)
+
+*One possible configuration where each riser/GPU combo is powered by a single PSU (source: ethermining guide)*
 
 #### Motherboards, processors, and RAM
 
