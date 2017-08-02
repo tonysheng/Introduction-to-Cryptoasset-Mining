@@ -1,3 +1,5 @@
+[<< home](../README.md)	
+
 # Section 1: Introducing cryptoasset mining
 
 ## What is a cryptoasset
@@ -38,7 +40,7 @@ Another important factor is specialized chips. For some cryptoassets, it's possi
 
 ## Why is mining important?
 
-![Proof of work diagram](../img/proof-of-work.svg)
+![Proof of work diagram](../img/proof-of-work.png)
 
 The primary purpose of mining isn’t the generation of new coins. The new coins are the reward for a more important task: recording transactions on the blockchain. 
 
@@ -83,3 +85,4 @@ If you meet all these requirements, then you have to ask yourself whether it's w
 * Participating in mining can be lucrative and historically has been a much cheaper way to acquire cryptoassets than buying them directly
 * There are financial and location requirements to mining. If you meet these requirements and think mining is worth the time and effort, mining is for you
 
+[Section 2: How do I mine? >> ](section2.mdown)
