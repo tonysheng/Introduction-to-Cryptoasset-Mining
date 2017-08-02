@@ -20,7 +20,7 @@ Bitcoin | ![BTC icon](../img/icons/bitcoin.png) BTC | The original cryptocurrenc
 Ethereum | ![ETH icon](../img/icons/ethereum.png) ETH | A decentralized platform that runs smart contracts | Yes
 Bitcoin Cash | ![BCH icon](../img/icons/bitcoin-cash.png) BCH | A fork (copy) of Bitcoin with bigger block sizes | Yes
 Ripple | ![XRP icon](../img/icons/ripple.png) XRP | Designed for fast transactions, targets enterprise | No
-Litecoin | ![LTC icon](../img/icons/litecoin.png) LTC | A fork of BTC with faster and cheaper transactions | Yes
+Litecoin | ![LTC icon](../img/icons/litecoin.png) LTC | A fork of Bitcoin with faster and cheaper transactions | Yes
 
 As you can see, not all cryptoassets are mineable. Of the top ten, only six are: BTC, ETH, LTC, DASH, ETC, and XMR. In order to be mineable, the cryptoasset has to be designed such that it issues new units through a "Proof of Work" mechanism. The miners do the work do create the new units.
 
@@ -67,8 +67,6 @@ So like investing in cryptoassets directly, don't invest more money than you're 
 ## Is mining right for me?
 
 There are a few requirements for mining. If you don't meet any of these requirements, mining is not for you:
-
-Financial:
 - [ ] You can afford the upfront hardware costs
 - [ ] You can afford to lose my initial investment
 Location:
