@@ -2,15 +2,24 @@
 * Elaborate on mining specifics based on this (https://www.coindesk.com/information/how-bitcoin-mining-works/)
 * Write brief summaries of all PoW cryptoassets
 
-# Section 1: Introducting cryptoasset mining
+# Section 1: Introducing cryptoasset mining
 
 ## What is a cryptoasset
 
+![Cryptoasset icons](../img/cryptocoin-icons.png)
+
+Source: https://www.npmjs.com/package/cryptocoins-icons
+
 A cryptoasset is a digital asset that secures transactions using cryptography. Different cryptoassets are designed to meet different goals, but most share a core benefit: trustless verification of transactions. Transactions are recorded and verified on a "blockchain", which does not require a central authority to moderate.
 
-Don't worry if this explanation and its benefits don't immediately make sense to you--it's a complicated concept that takes some time to understand. If you're interested in learning more, I recommend *The Internet of Money*.
+Don't worry if this explanation and its benefits don't immediately make sense to you--it's a complicated concept that takes some time to understand. If you're interested in learning more, I recommend *The Internet of Money* by Andreas Antonopoulos.
 
 The ten most active cryptoassets today are: 
+
+Cryptoasset | Symbol | Description |
+|---|---|---|
+Test | test | test
+
 * Bitcoin (BTC)
 * Ethereum (ETH)
 * Ripple (XRP)
