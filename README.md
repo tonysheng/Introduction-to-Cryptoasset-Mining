@@ -19,7 +19,7 @@ The goal of this book is to provide an open-source resource for the cryptoasset 
 
 Introduction to Cryptoasset Mining
 
-* [Introduction](introduction.mdown)
+* [Introduction](content/introduction.mdown)
 * [Section 1: Introducing cryptoasset mining](content/section1.mdown)
 	* What is a cryptoasset?
 	* What is mining?
