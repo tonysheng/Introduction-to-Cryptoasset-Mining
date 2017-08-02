@@ -1,5 +1,5 @@
 # Introduction to Cryptoasset Mining
-![Introduction to Cryptoasset Mining Cover](img/book-cover-750w.png)
+![Introduction to Cryptoasset Mining Cover](img/book-cover-750w.jpg)
 ## Book Source and Build System
 
 This repository contains the source code for the book "Introduction to Cryptoasset Mining" by Tony Sheng
