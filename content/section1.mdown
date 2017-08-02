@@ -6,7 +6,7 @@
 
 ## What is a cryptoasset
 
-![Cryptoasset icons](../img/cryptocoin-icons.png)
+![Cryptoasset icons](../img/cryptocoin_icons.png)
 
 Source: https://www.npmjs.com/package/cryptocoins-icons
 
@@ -18,7 +18,7 @@ The ten most active cryptoassets today are:
 
 Cryptoasset | Symbol | Description |
 |---|---|---|
-Test | test | test
+Bitcoin | ![BTC icon](../img/icons/bitcoin.png) BTC | test
 
 * Bitcoin (BTC)
 * Ethereum (ETH)
