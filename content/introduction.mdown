@@ -12,7 +12,7 @@ I bought my first Bitcoin in 2014, back when the price was "only" $1200. Compare
 
 The rapid rise of Bitcoin's price made overnight millionaires. Some accumulated their Bitcoins from trading and investing. Others used spare computing power to mine it--collecting stashes of Bitcoins for the cost of electricity.
 
-Today, the difficulty of mining Bitcoin is 804,525,194,568 times harder than it was in 2010. That means it takes billinos of times more computing power to mine a single Bitcoin. As a result, most individuals no longer have the computing power to mine any meaningful quantity of Bitcoin.
+Today, the difficulty of mining Bitcoin is 804,525,194,568 times harder than it was in 2010. That means it takes billions of times more computing power to mine a single Bitcoin. As a result, most individuals no longer have the computing power to mine any meaningful quantity of Bitcoin.
 
 Instead, individual miners have turned to mining younger cryptoassets. Newer cryptoassets are less difficult to mine and some, like Ethereum, have rapidly grown in value. Many are profitable to mine at current prices and difficulty. This book aims to provide everything an individual would need to get started mining these cryptoassets.
 
