@@ -128,7 +128,7 @@ Titanium | 90% | 1100w
 
 You'll want to get at least a Gold rated PSU for your miner if you care about electricity costs. 
 
-![PSU efficiency chart](efficiency6_by_phaedrus2401.jpg)
+![PSU efficiency chart](../img/efficiency6_by_phaedrus2401.jpg)
 
 SOURCE: [http://www.overclock.net/t/711542/on-efficiency](http://www.overclock.net/t/711542/on-efficiency)
 
@@ -136,7 +136,7 @@ As you can see for PSU rated above 80+, there’s an efficiency sweet spot aroun
 
 ##### Cables
 
-![PSU peripheral cable 6+2](..img/psu-peripheral-cable.jpg)
+![PSU peripheral cable 6+2](../img/psu-peripheral-cable.jpg)
 
 You'll also need a PSU with enough cables to power all of your components. The most common limiting feature on a PSU is the "peripheral" connectors. Ideally, you want one peripheral cable to power each GPU. If your GPUs aren't too power hungry, you can also power two GPUs per peripheral cable.
 
