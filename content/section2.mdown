@@ -2,7 +2,7 @@
 
 ## What is needed to mine cryptoassets?
 
-As mentioned in Section 1 mining is the process of solving mathematical problems to acquire cryptoassets. In order to participate in this process, you'll need computing power, software that applies your computing power to mining, a crypto wallet to receive mining rewarsd, and most likely a "pool" of other miners that are combining their computing power to increase the chances they solve the problem
+As mentioned in Section 1 mining is the process of solving mathematical problems to validate transactions and collect the reward for doing so. In order to participate in this process, you'll need computing power, software that applies your computing power to mining, a crypto wallet to receive mining rewards, and most likely a "pool" of other miners that are combining their computing power to increase the chances they solve the problem
 
 Once you have your hardware set up, the rest of the process is fairly straightforward--mostly downloading and configuring software and pressing "run". However, building the miner can be quite tricky--especially if you don't have experience building computers. 
 
