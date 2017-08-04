@@ -193,6 +193,10 @@ Run AMD Pixel Clock Patcher and reboot.
 
 You'll need to jump pins 1 + 8 by following [these instructions](https://forum.ethereum.org/discussion/9443/bricked-your-rx-480-due-to-bad-flash)
 
+## Cryptoasset wallets
+
+@TODO section on wallets
+
 ## Mining software
 
 There are usually only a couple mining programs in use for a given cryptoasset, but which one should you use? 

@@ -33,6 +33,7 @@ Introduction to Cryptoasset Mining
 	* Install drivers
 	* Drivers
 	* Flashing AMD BIOS
+	* Cryptoasset wallets
 	* Mining software
 	* Mining pool
 	* Overclocking
