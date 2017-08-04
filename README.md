@@ -26,7 +26,7 @@ Introduction to Cryptoasset Mining
 	* What is mining?
 	* How much can I make?
 	* Is mining right for me?
-* [Section 2: How do I mine?](section2.mdown)
+* [Section 2: How do I mine?](content/section2.mdown)
 	* How are cryptoassets mined?
 	* What hardware do I need to mine?
 		* ASIC Mining
