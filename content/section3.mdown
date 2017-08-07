@@ -2,27 +2,25 @@
 
 The easiest part of assembling a miner is putting together hardware components. Most of the steps are impossible to mess up. However, there are a few common mistakes that can create serious safety hazards. We'll spend some extra time on those common mistakes in this section.
 
-Most people spend the majority of their set up time configuring software and optimizing graphics cards. This includes downloading and installing all your software (e.g. operating system, drivers, miners) and configuring your cards (e.g. BIOS modifications, overlcocking). Much of the configuration is case-by-case, but we'll share techniques to get the most of *your* cards. 
+Most people spend the majority of their set up time configuring software and optimizing graphics cards. This includes downloading and installing all your software (e.g. operating system, drivers, miners) and configuring your cards (e.g. BIOS modifications, overclocking). Much of the configuration is case-by-case, but we'll share techniques to get the most of *your* cards. 
 
 ## Assess electrical requirements
 
-First, make sure that the eletrical circuits in your space can support the wattage of your miner. 
+First, make sure that the electrical circuits in your space can support the wattage of your miner. You need to estimate your peak electricity usage on a given circuit including your miner. If it exceeds the capacity of your circuit, you are going to trip breakers or worse. 
 
-https://bitcoin.stackexchange.com/questions/4692/how-many-watts-can-i-safely-draw-from-a-typical-us-home-circuit-for-bitcoin-mini
+Unfortunately, there isn’t a single standard for residential circuits. There isn’t even a single standard within just the US. Typical circuits are 20amps (running 120V electricity) which means you can safely draw 16 amps: roughly 1,920 watts. However, you should not simply assume that your circuit(s) are typical.
 
-@TODO enumerate steps to estimate support of circuit
+You can check your electricity meter or circuit breaker. The breaker amperage is usually labeled on each breaker and sometimes there’s a notation of the voltage.
 
-Importantly, you want to estimate your peak electricity usage on a given circuit including your miner. If it exceeds the capacity of your circuit, you are going to trip breakers or worse. 
+It’s important to get this right, so if you plan to use a lot of power and aren’t confident that your circuit can handle it, call an electrician. In the US, an inspection shouldn’t cost more than $100. 
 
-## Confirm compatability of hardware
+## Confirm compatibility of hardware
 
 Take some time to confirm that all of your hardware works together: 
 
-[ ] Your motherboard can support the number of GPUs
-
-[ ] Your RAM and CPU are compatible with your motherboard
-
-[ ] Your PSU can support the usage of your rig
+- [ ] Your motherboard can support the number of GPUs
+- [ ] Your RAM and CPU are compatible with your motherboard
+- [ ] Your PSU can support the usage of your rig
 
 Go back to Section 2 if you're unsure about any of this. 
 

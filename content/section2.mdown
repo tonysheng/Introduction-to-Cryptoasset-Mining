@@ -236,8 +236,7 @@ In Section 3, we'll talk about mining software and mining pools--some of which t
 * Use tools like nowinstock.net to buy hard to find GPUs
 * Think comprehensively about your costs--it's not just the wattage used by each GPU
 
-
-
+[Section 3: Assembling and running your miner >>](section3.mdown)
 
 
 
