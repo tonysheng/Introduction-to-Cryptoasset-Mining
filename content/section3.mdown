@@ -6,9 +6,9 @@ Most people spend the majority of their set up time configuring software and opt
 
 ## Assess electrical requirements
 
-First, make sure that the electrical circuits in your space can support the wattage of your miner. You need to estimate your peak electricity usage on a given circuit including your miner. If it exceeds the capacity of your circuit, you are going to trip breakers or worse. 
+First, make sure that the electrical circuits in your space can support the wattage of your miner. You need to estimate your peak electricity usage on a given circuit, including your miner. If your peak electricity usage exceeds the capacity of your circuit, you will trip breakers or worse. 
 
-Unfortunately, there isn’t a single standard for residential circuits. There isn’t even a single standard within just the US. Typical circuits are 20amps (running 120V electricity) which means you can safely draw 16 amps: roughly 1,920 watts. However, you should not simply assume that your circuit(s) are typical.
+Unfortunately, a single standard for residential circuits does not exist. A US standard doesn’t even exist. The most common circuits are 20amps (running 120V electricity) which means you can safely draw 16 amps: roughly 1,920 watts. However, you should not simply assume that your circuit(s) are the most common type.
 
 You can check your electricity meter or circuit breaker. The breaker amperage is usually labeled on each breaker and sometimes there’s a notation of the voltage.
 
@@ -22,28 +22,117 @@ Take some time to confirm that all of your hardware works together:
 - [ ] Your RAM and CPU are compatible with your motherboard
 - [ ] Your PSU can support the usage of your rig
 
-Go back to Section 2 if you're unsure about any of this. 
+Go back to [Section 2](section2.mdown) if you're unsure about any of this. 
 
 ## Assemble miner
 
+### Checklist of parts
+
+- [ ] Motherboard
+- [ ] CPU
+- [ ] RAM
+- [ ] Hard drive (SSD)
+- [ ] SATA cable for the SSD
+- [ ] Power supply (PSU)
+- [ ] On/off cable
+- [ ] Internet (either Wifi adapter or Ethernet connection)
+- [ ] Graphics cards
+- [ ] Powered PCI-e risers
+- [ ] Monitor
+- [ ] Keyboard
+- [ ] Mouse
+
 ### Checking the basic components work
 
+*Note: most will find it easier to follow along with a video. The images below are from buriedONE’s excellent *Complete Mining Rig* video tutorial. [Watch here](https://www.youtube.com/watch?v=2z1gX_XVIHE). The only thing to do differently is try and power the risers *
+
 #### 1. Unbox the motherboard
+
+![Unbox the motherboard](../img/assembly/miner-assembly-1-mobo.png)
+
+If you’re building your rig on some sort of rack or case, make sure the motherboard is not touching a conductive material like metal. The simplest way to avoid this is to lay the motherboard down on the foam that it comes with in the box. 
+
 #### 2. Connect the CPU and CPU fan
+
+![Connect the CPU](../img/assembly/miner-assembly-2-cpu.png)
+
+Unlock the CPU slot and place the chip inside. Then place the fan over it and screw in the fan if needed. Plug the fan into the slot labeled “CPU FAN” on the motherboard. 
+
 #### 3. Install RAM
+
+![Install RAM](../img/assembly/miner-assembly-3-ram.png)
+
+Unlock the RAM socket and place your RAM in the slot. There’s only direction it will fit, so if it doesn’t fit, turn it around. 
+
 #### 4. Connect SSD
+
+Plug the SATA cable into the motherboard SATA slot, then connect the SSD to the other end of the SATA cable
+
 #### 5. Connect On/Off switch
+
+![Connect on/off switch](../img/assembly/miner-assembly-4-onoff.png)
+
+Connect the on/off cable to the power button pins. The configuration may vary by motherboard, but will usually be labeled PWRBTN. 
+
 #### 6. Connect ethernet or USB Wifi stick
+
+Plug it in. 
+
 #### 7. Connect a GPU to a riser
+
+Connect the GPU to the riser.
+
 #### 8. Connect riser to motherboard
+
+![Connect riser to mobo](../img/assembly/miner-assembly-5-riser.png)
+
+Plug the riser into the motherboard PCI-e slot using the USB cable.
+
 #### 9. Connect PSU to:
+
+Do not plug the PSU into an outlet while you connect it to the following components. 
+
 ##### 9.1. Motherboard
+
+![Plug in mobo PSU cable](../img/assembly/miner-assembly-6-psu-mobo.png)
+
+Plug in the motherboard power cable.
+
 ##### 9.2. CPU
+
+![Plug in mono CPU cable](../img/assembly/miner-assembly-7-psu-cpu.png)
+
+Plug in the CPU cable
+
 ##### 9.3. SSD
-##### 9.4. Riser
-##### 9.5. GPU
-##### 10. Connect Monitor to the GPU
+
+Plug a SATA cable into the PSU and connect the SSD to it. 
+
+##### 9.4. GPU
+
+Power your GPU with VGA cables from your PSU (8-pin to 6+2pin).
+
+![8 to 6+2 pin cable](../img/8-6+2.jpg) 
+
+*The VGA cable that comes with your PSU should look like this but just longer. 1x 8pin on one side and 2x 6+2pin on the other* 
+
+##### 9.5. Riser
+
+###### Option 1 (recommended): power each riser directly from the PSU
+
+Ideally, you will connect each of the risers to a VGA cable (8-pin to 6+2pin). 
+
+###### Option 2: power each riser using the adapter
+
+The adapters that come with risers are notoriously poor quality and some miners horror stories where they’ve melted. If you can avoid it, do not use them. But if it’s not avoidable, make sure to power no more than 2 risers with a single PSU cable. 
+
+![Power riser with SATA cable](../img/assembly/miner-assembly-8-psu-riser.png)
+
+If you’re using version 006c risers, the adapter is a 6-pin to SATA adapter. You can plug the adapter from the riser into the SATA connection.
+
+#### 10. Connect Monitor to the GPU
 #### 11. Connect keyboard and mouse
+#### 12. Plug in the PSU and power up
 
 Power on the PSU and turn it on. If the fans start spinning, you're in good shape. You should also see the monitor turn on. 
 
@@ -69,7 +158,7 @@ Connector | Max power
 Molex | 132 W
 SATA | 54 W
 
-As you can see, SATA is ratest for the lowest wattage, and is thus most at risk for overdraw. If SATA is present at any point in your power chain, the max you can draw is 54W.
+As you can see, SATA is rated for the lowest wattage, and is thus most at risk for overdraw. If SATA is present at any point in your power chain, the max you can draw is 54W.
 
 #### How much power does a riser draw?
 
