@@ -14,21 +14,26 @@ Section 2 is a general overview of the hardware required to mine cryptoassets wi
 
 *The Antminer S9 is a Bitcoin ASIC miner*
 
-ASIC miners are the most straightforward hardware to mine with. These are specially designed devices built to mine one specific type of cryptoasset. If you buy an ASIC miner, the only other hardware you'll need is a power supply.
+ASIC miners (Application Specific Integrated Circuits) are the most straightforward hardware to mine with. These are specially designed devices built to mine cryptoassets that use a specific algorithm, most commonly SHA-256 and Scrypt. If you buy an ASIC miner, the only other hardware you'll need is a power supply.
 
+People prefer ASIC miners over GPU miners for these reasons:
+1. They are practically Plug and Play with GUI miners and require little to no effort and troubleshooting to setup.
+2. They are much more compact than GPU miners.
+3. You can get Bitcoin and Litecoin directly without any need for an exchange.
+4. If you have a lot of money to put into mining you can setup 100k worth of ASICs in one days work whereas you will need 2 weeks to a month to setup 100k worth of mining rigs.
 Because the set-up is so simple, we won't dedicate much time to ASIC miners in this book.
 
 ### GPU miners
 
-GPU (graphics card) miners are the miners of choice for individual miners. These miners are built with consumer-grade hardware available at everyday electronics stores like Newegg, Amazon, and Best Buy. While GPU miners can't compete with ASIC miners, they shine when mining "ASIC resistant" cryptoassets--those for which an ASIC chip is too difficult to make.
+GPU (graphics card) miners are the miners of choice for individual miners. These miners are built with consumer-grade hardware available at everyday electronics stores like Newegg, Amazon, and Best Buy. While GPU miners can't compete with ASIC miners, they shine when mining "ASIC resistant" cryptoassets--those for which an ASIC chip is too difficult and not cost effective to make.
 
-This means you'll never see a GPU miner dedicated to mining something like Bitcoin because an ASIC is thousands of times more efficient than a GPU. However, for Ethereum or ZCash, GPU miners are the fastest miners available. And they will likely stay the most efficient because Ethereum and ZCash are "ASIC resistant", meaning an ASIC is unlikely to ever get developed.
+This means you'll never see a GPU miner dedicated to mining something like Bitcoin because an ASIC is thousands of times more efficient than a GPU. However, for Ethereum or ZCash, GPU miners are the fastest miners available. And they will likely stay the most efficient because Ethereum and ZCash are hard to develop ASICs and odds are if an ASIC is created it will drive almost every single miner away therefore plummeting the value, meaning an ASIC is unlikely to ever get developed.
 
 Many prefer GPU miners over ASICs for the following reasons:
-1. Resell value: if you decide you no longer want to mine, it's easier to sell GPUs than an ASIC
-2. Flexibility: if a given cryptoasset is no longer profitable to mine, you can easily switch to a different cryptoasset
-3. Ease of access: it can be much easier to buy the components for a GPU miner than an ASIC
-4. Peace of mind: sellers of ASIC miners tend to be foreign companies without clear return and warranty programs. When you buy components for a GPU mining rig, you are protected by your retailer's policy and manufacturer's warranty
+1. Resell value: if you decide you no longer want to mine, it's easier to sell GPUs than an ASIC.
+2. Flexibility: if a given cryptoasset is no longer profitable to mine, you can easily switch to a different cryptoasset.
+3. Ease of access: it can be much easier to buy the components for a GPU miner than an ASIC.
+4. Peace of mind: sellers of ASIC miners tend to be foreign companies without clear return and warranty programs. When you buy components for a GPU mining rig, you are protected by your retailer's policy and manufacturer's warranty.
 
 A GPU mining rig is basically a computer that's configured to run anywhere from one to eight or more graphics cards. The process of building a GPU mining rig is essentially the same as building a new PC.
 
@@ -64,13 +69,13 @@ As you can see, this AMD RX 580 is made by Sapphire and it’s their NITRO+ vers
 
 The most efficient cards you can get for mining today are the RX570 8GB and RX580 8GB and the GTX 1060 6GB, GTX 1070, and GTX 1080TI. The GTX 1080 is relatively less efficient as you can see in the benchmarks below.
 
-| Card         | Maker  | Mh/s | Sols/s | Power  usage (W) | Estimated Price |
+| Card         | Maker  | Mh/s  (Ethash)| Sols/s | Power  usage (W) | Estimated Price |
 |--------------|--------|------|--------|------------------|-------|
 | RX 580 8GB   | AMD    | 31   | 300    | 135              | $300  |
 | RX 580 4GB   | AMD    | 28   | 280    | 135              | $275  |
 | RX 570 8GB   | AMD    | 27   | 260    | 120              | $250  |
 | RX 570 4GB   | AMD    | 25   | 240    | 120              | $225  |
-| GTX 1080TI   | Nvidia | 35   | 650    | 140              | $700  |
+| GTX 1080TI   | Nvidia | 35   | 650    | 250              | $700  |
 | GTX 1080     | Nvidia | 24   | 450    | 140              | $550  |
 | GTX 1070     | Nvidia | 30   | 420    | 110              | $450  |
 | GTX 1060 6GB | Nvidia | 24   | 310    | 90               | $300  |
@@ -239,7 +244,7 @@ The fixed cost of your miner is the sum of all your hardware costs. This can be 
 
 The variable cost is electricity. You can estimate how much your electric bill will go up by using one of the mining profitability calculators. Enter your electricity rate, select the GPUs you want to use, and run the calculator. This estimation is lower than your actual usage, because the calculator only factors in electricity used by your GPU. The rest of your rig is also using ~100W of power. Plus, your PSU is "wasting" anywhere between 10% and 20%+ of energy depending on its efficiency.
 
-If you're mining in a hotter climate, any cooling also costs electricity--whether that's fans or AC. Most of the time a box fan will cost 30-50 USD and will consume 40-80 watts. 
+If you're mining in a hotter climate, any cooling also costs electricity--whether that's fans or AC. Most of the time a box fan will cost 30-50 USD and will consume 40-80 watts.
 
 In Section 3, we'll talk about mining software and mining pools--some of which take a fee on your mining proceeds. It's usually not much (1-2%), but this is another cost to factor into your profitability calculations.
 
