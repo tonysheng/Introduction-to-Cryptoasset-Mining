@@ -11,6 +11,7 @@ The source code of the book itself (/chapters) is licensed CC-BY-NC-ND
 To maintain objectivity, there are no affiliate links contained in this book. All Amazon links are Amazon Smile links. If you wish to support the author, you can donate BTC or ETH to the following addresses:
 
 BTC: 17FzHrLW3wrb3S7CqZmbLn3hvSUXtg7wi4
+
 ETH: 0x7a364D25c4b0830733d3470DDFFeA3B6979D6944
 
 ## Current version
@@ -21,9 +22,9 @@ Version 0: working draft
 
 V0 tasks
 
-- [ ] Copy editing
-- [ ] Source all images
-- [ ] Link to helpful resources and suggested hardware
+- [x] Copy editing
+- [x] Source all images
+- [x] Link to helpful resources and suggested hardware
 
 V1 tasks
 
