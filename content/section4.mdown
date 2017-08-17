@@ -1,4 +1,4 @@
-# Section 4: Maintenance and protips
+# Section 4: Maintenance and Protips
 
 ## Maintenance
 
@@ -58,4 +58,4 @@ Many plugs also monitor power draw, so you can keep an eye on the total power be
 
 ## Protips
 
-@TODO - source protips from miners
+@TODO - source protips from miners (e.g. communities to follow)

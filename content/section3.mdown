@@ -114,7 +114,7 @@ Power your GPU with VGA cables from your PSU (8-pin to 6+2pin).
 
 ![8 to 6+2 pin cable](../img/8-6+2.jpg) 
 
-*The VGA cable that comes with your PSU should look like this but just longer. 1x 8pin on one side and 2x 6+2pin on the other* 
+*The VGA cable that comes with your PSU should look like this but just longer. 1x 8pin on one side and 6+2pin on the other (sometimes 2x 6+2pin)* 
 
 ##### 9.5. Riser
 
@@ -158,9 +158,11 @@ Connector | Max power
 Molex | 132 W
 SATA | 54 W
 
-As you can see, SATA is rated for the lowest wattage, and is thus most at risk for overdraw. If SATA is present at any point in your power chain, the max you can draw is 54W.
+SATA is rated for the lowest wattage, and is thus most at risk for overdraw. If SATA is present at any point in your power chain, the max wattage you can safely draw is 54W.
 
 #### How much power does a riser draw?
+
+@TODO VERIFY THIS IS ACCURATE
 
 The main source of power for a GPU comes directly from the PSU to the GPU via a 6+2pin connection. The remainder of the power comes from the PCI-e riser. The PCI-e specification allows for up to 75W to be drawn from the PCI-e slot, so the max wattage a riser can draw is 75W.
 
@@ -205,7 +207,7 @@ You can run Windows indefinitely without activating the software.
 
 ### Linux, ethOS, and simpleOS
 
-@TODO Link to stuff
+Depending on demand, instructions for non-Windows OS might be added in future versions
 
 ## Install drivers
 
@@ -280,9 +282,21 @@ Run AMD Pixel Clock Patcher and reboot.
 
 You'll need to jump pins 1 + 8 by following [these instructions](https://forum.ethereum.org/discussion/9443/bricked-your-rx-480-due-to-bad-flash)
 
+##### System not recognizing the card properly
+
+For AMD cards, this is often because the BIOS has not been properly patched (step 5 above). If patching doesn’t solve this issue, try plugging the monitor into the unrecognized card. 
+
+##### Overclock software cannot change core or memory clocks
+
+This is usually due to the system not recognizing the card (see above)
+
 ## Cryptoasset wallets
 
-@TODO section on wallets
+Cryptoasset wallets are where you'll receive your mining rewards. Wallet safety is an important topic and one you should research thoroughly on your own. There are two options for wallets: 1) exchange wallet and 2) private wallet. 
+
+For the most part, mining to your private wallet is the best choice. Assets on an exchange aren't *really* yours. If the exchange is hacked or goes down, there's no guarantee you'll get your money back. However, it is easier to exchange your mining rewards for something else if you mine directly to an exchange. To set up an exchange wallet, follow the directions at the exchange of your choice.
+
+For private wallets, follow the official instructions for whatever cryptoasset you're mining or visit its community to get recommendations. 
 
 ## Mining software
 
@@ -314,11 +328,11 @@ Miner | Supported cryptoassets | Pros | Cons
 
 Which miner you use depends largely on the cryptoasset you want to mine. If you want Bitcoin, Nicehash is the way to go. If you want Ethereum, try both Ethminer and Claymore. If you want to dual mine, Claymore is the only way to go.
 
-A good way to stay current on the best performing miners is to see what mining pools suggest, which is our next topics. 
+I switched mining softwares three times over the course of a week mining SIGT. Using the official miner (ccminer), my GTX 1060 hashed at 15 Mh/s. From the SIGT bitcointalk.org thread, I saw that a fork of ccminer called “palginmod” was performing better, leading to 18Mh/s. Finally, I found sgwin miner, which got me to 20Mh/s--a 30%+ increase from the official miner. 
 
 ## Mining pools
 
-Most individual miners mine with a group of other miners (a pool) instead of mining on their own. Individual miners won't have a high enough hashrate to solve blocks regularly enough to get a payout. Pools solve this problem by grouping the hashing power of lots of miners, increasing the likelihood the black is solved by the pool, and then distributes the rewards to the members of the pool. 
+Most individual miners mine with a group of other miners (a pool) instead of mining on their own. Individual miners won't have a high enough hashrate to solve blocks regularly enough to get a payout. Pools solve this problem by grouping the hashing power of lots of miners, increasing the likelihood the block is solved by the pool, and then distributes the rewards to the members of the pool. 
 
 ### How to choose a pool
 
@@ -398,8 +412,6 @@ Your weapon of choice in managing heat is fan speed. Either manually set the fan
 
 The best way to find overclock settings that work well for your card and cryptoasset is Google. As far as I know, there’s no centralized database (yet). Make sure to be specific with your card details when searching. For example: `GIGABYTE RX 580 8GB STRIX Ethereum Overclock Settings` will yield better results than `RX 580 Mining Overclock Settings`. 
 
-@TODO start a dataset
-
 ### Common problems
 
 #### My hashrate is lower after overclocking
@@ -412,6 +424,22 @@ GPU crash can be caused by one or both of two related problems: (1) overclocking
 
 If you exceed the memory or core clock that your GPU can handle, it can cause instability and crash the card. On the flip-side, if you're undervolting or underpowering your card, your card might not be getting enough power to run properly. Either or some combination of both could cause crashes. 
 
+#### Various miner errors like “Cannot Create DAG”
+
+Miner errors are most commonly caused by one of two problems:
+
+1) Virtual memory is not set high enough
+
+For multi-GPU rigs mining Ethereum, “Cannot Create DAG” is one of the most common issues. This happens because virtual memory is insufficient--easily fixed with a simple setting change. 
+
+Open explorer > Right click “This PC” > Properties > Advanced System Settings > Advanced > Performance > Settings > Advanced >    Change Virtual Memory > Uncheck “Automatically merge” > Select “Custom Size” > Put recommended size in the initial size and 16400 for the maximum > Click set > Restart
+
+It’s easier to follow along with [this video from Cryptomined](https://www.youtube.com/watch?v=ZL0m7tVt_DU)
+
+2) Overclock settings are not stable
+
+If your problem isn’t solved by increasing virtual memory, it’s likely due to unstable overclock settings. Try to decrease core and memory overclocks first. If that’s still unstable, you may need to increase your power limit or voltage. 
+
 ## What should I mine?
 
 Most people mine to maximize returns, so picking the most profitable cryptoasset to mine is the natural choice. Use a site like whattomine to input your hashing and power stats to generate a list of the most profitable cryptoassets to mine. This will ensure that you mine the most profitable coin day to day.
@@ -419,3 +447,14 @@ Most people mine to maximize returns, so picking the most profitable cryptoasset
 However, it’s important to consider the volatility of the cryptoasset market. Cryptoassets with smaller market capitalization are more volatile than, say, Bitcoin. This means mining and holding less established coins could have tremendous upside but could also lose a lot of value over time. 
 
 If you’re comfortable speculating on the price of a cryptoasset, you’ll want to make sure that you believe in the long-term prospects of the cryptoasset you mine. Otherwise, it might be best to convert your mining proceeds to something more stable like Bitcoin (Nicehash will automatically do this for you) or a cryptoasset you believe in.
+
+## Summary 
+
+* Assembly of your miner is relatively straightforward
+* Pay special attention to electrical requirements
+* Riser adapters are the most common cause of fires
+* Overclocking (and BIOS modifications for AMD cards) is required to achieve maximum performance
+* The “best” mining software, pool, and cryptoasset to mine changes frequently and depends on your personal preferences
+
+[Section 4: Maintenance and Protips >>](section4.mdown)
+

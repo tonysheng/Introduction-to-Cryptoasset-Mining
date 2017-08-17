@@ -10,9 +10,9 @@ Source: https://www.npmjs.com/package/cryptocoins-icons
 
 A cryptoasset is a digital asset that secures transactions using cryptography. Different cryptoassets are designed to meet different goals, but most share a core benefit: trustless verification of transactions. Transactions are recorded and verified on a "blockchain", which does not require a central authority to moderate.
 
-Don't worry if this explanation and its benefits don't immediately make sense to you--it's a complicated concept that takes some time to understand. If you're interested in learning more, I recommend *The Internet of Money* by Andreas Antonopoulos.
+Don't worry if this explanation and its benefits don't immediately make sense yet--it's a complicated concept that takes some time to understand. If you're interested in learning more, I recommend [*The Internet of Money*](https://smile.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454/ref=sr_1_1?ie=UTF8&qid=1502982058&sr=8-1&keywords=internet+of+money) by Andreas Antonopoulos.
 
-The top five most active cryptoassets today are: 
+The top five most active cryptoassets as of July, 2017 are: 
 
 Cryptoasset | Symbol | Description | Mineable? 
 |---|---|---|---|
@@ -22,21 +22,21 @@ Bitcoin Cash | ![BCH icon](../img/icons/bitcoin-cash.png) BCH | A fork (copy) of
 Ripple | ![XRP icon](../img/icons/ripple.png) XRP | Designed for fast transactions, targets enterprise | No
 Litecoin | ![LTC icon](../img/icons/litecoin.png) LTC | A fork of Bitcoin with faster and cheaper transactions | Yes
 
-As you can see, not all cryptoassets are mineable. One can only mine six of the top ten cryptoassets: BTC, ETH, LTC, DASH, ETC, and XMR. In order to be mineable, the cryptoasset has to be designed such that it issues new units through a "Proof of Work" mechanism. The miners do the work do create the new units.
+As you can see, not all cryptoassets are mineable. Of the top ten cryptoassets, only six can be mined: BTC, ETH, LTC, DASH, ETC, and XMR. In order to be mineable, the cryptoasset has to be designed such that it issues new units through a "Proof of Work" mechanism. The miners do the work do create the new units.
 
 ## What is mining and why is it important?
 
-The term “mining” is a bit of misnomer. It calls to mind a bunch of people searching for coins hidden away somewhere mysterious. In fact, the process is much more like payment processing. Transactions on the blockchain are automatically put into a “block” that needs to be validated. The process of mining validates the transactions. As a reward, the miner responsible for validating a block receives some set amount of new coins.
+The term “mining” is a misnomer. It calls to mind a group of people searching for riches hidden away somewhere mysterious. In fact, the process more resembles payment processing. Transactions on the blockchain are automatically put into a “block” that needs to be validated. The process of mining validates the transactions. As a reward, the miner responsible for validating a block receives some set amount of new coins.
 
 Without mining, transactions would not get verified. Mining is the engine that keeps the blockchain running. 
 
-Why does this take so much processing power? You can think of each block as containing a complex math problem--one that takes significant resources to solve. Once the problem is solved, the block can be added to the record of all transactions, and the mine res rewarded. 
+Why does this take so much processing power? You can think of each block as containing a complex math problem--one that takes significant resources to solve. Once the problem is solved, the block can be added to the record of all transactions, and the miner is rewarded. 
 
 The relationship between mining power and rewards is “difficulty”. If the difficulty is high, miners receive fewer rewards for more mining power. Over time, difficulty increases. This can be due to increasing the time in between each new block or reducing the size of each new block.
 
 However, the biggest factor that impacts the difficulty of mining a particular cryptoasset is how many people are trying to mine it. 
 
-Because only one miner can receive a reward for solving a  block, everybody competes to solve the problem first. So the difficulty of mining is proportional to the number of people trying to mine it.
+Because only one miner can receive a reward for solving a block, everybody competes to solve the problem first. So the difficulty of mining is proportional to the number of people trying to mine it.
 
 Another important factor is specialized chips. For some cryptoassets, it's possible to create specialized chips that are designed with the sole intent to mine that cryptoasset. For example, virtually all Bitcoin is now mined with specialized Bitcoin mining chips. These are called ASIC (Application-specific integrated circuit) miners. Sometimes ASICS are thousands of times more efficient than previous methods (CPU or GPU mining).
 
@@ -85,7 +85,7 @@ In the rubble of a crypto asset market that had just crashed from $120B to $60B,
 
 Historically, AMD cards were the most profitable GPUs—generating more returns for lower cost. However, with SIGT and its new SkunkHash-Raptor algorithm, NVIDIA cards performed substantially better. This was incentive for miners that had built rigs with GTX cards. 
 
-Few were aware of SIGT at the start, but miners soon took note when mining profitability calculators started to suggest SIGT. In early August, a miner could make five times the profit per day mining SIGT. By the second week of August, mining difficulty had risen  tenfold from 4,000 to 40,000, but profitability was still 2-3x higher than the next most profitable cryptoasset.
+Few were aware of SIGT at the start, but miners soon took note when mining profitability calculators started to suggest SIGT. In early August, a miner could make five times the profit per day by mining SIGT. By the second week of August, mining difficulty had risen tenfold from 4,000 to 40,000, but profitability was still 2-3x higher than the next most profitable cryptoasset.
 
 During the same period, the price of SIGT rose meteorically from two cents on Aug 1 to sixteen cents on Aug 7. If you mined SIGT for a day on Aug 1, you made 5x as much as you would mining something else. If you held it until Aug 7, your SIGT were now with 8x more. Your decision to mine SIGT on Aug 1 was 40x more profitable than the next best thing.
 

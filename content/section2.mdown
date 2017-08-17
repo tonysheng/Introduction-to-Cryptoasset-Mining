@@ -92,9 +92,10 @@ Typically, the total wattage of a power supply is listed in its name.
 
 ##### Estimating power use
 
-You can estimate what size PSU you'll need by calculating the power requirements of your rig and adding 20% headroom. Your rig will require roughly the sum of all your GPUs plus roughly 100W for everything else. 
+You can estimate what size PSU you'll need by calculating the power requirements of your rig and adding 20% headroom--the difference between the total wattage of the PSU and your usage. Headroom is important for two reasons: 1) it provides a safe buffer that minimizes risk of overextending the PSU, 2) PSUs get increasingly less efficient over 60% load. 
 
-@TODO why is headroom important
+Your rig will require roughly the sum of your GPU power use plus roughly 100W for everything else. 
+
 
 Example
 
@@ -130,7 +131,7 @@ You'll want to get at least a Gold rated PSU for your miner if you care about el
 
 ![PSU efficiency chart](../img/efficiency6_by_phaedrus2401.jpg)
 
-SOURCE: [http://www.overclock.net/t/711542/on-efficiency](http://www.overclock.net/t/711542/on-efficiency)
+*Image source: [http://www.overclock.net/t/711542/on-efficiency](http://www.overclock.net/t/711542/on-efficiency)*
 
 As you can see for PSU rated above 80+, there’s an efficiency sweet spot around 40-60% load--how efficient depends on the PSU 80+ rating. For a deeper discussion on efficiency, I recommend reading Phaedrus2129’s post [“On Efficiency”](http://www.overclock.net/t/711542/on-efficiency) . 
 
@@ -155,11 +156,9 @@ There is risk of back-feed which can break components and potentially cause a fi
 
 Some people recommend you power all the risers with the same PSU that powers the Motherboard and CPU. Others say you should power each riser/GPU combo with the same PSU. It’s probably worth doing some research of your own to decide which route to go. 
 
-@TODO get to bottom of this
-
 ![ethermining guide diagram for 2 PSU miner](../img/2psu_setup_diagram.jpg)
 
-*One possible configuration where each riser/GPU combo is powered by a single PSU (source: ethermining guide)*
+*One possible configuration where each riser/GPU combo is powered by a single PSU (source: /r/ethermining guide)*
 
 #### Motherboards, processors, and RAM
 
@@ -181,7 +180,7 @@ As long as your CPU and RAM type fits that of your motherboard, you shouldn't ha
 
 #### PCI-e Risers
 
-![Mincell PCI-e Riser 006c](../img/mintcell-riser-006c.jpg)
+![Mintcell PCI-e Riser 006c](../img/mintcell-riser-006c.jpg)
 
 Perhaps the most frustrating component in building a mining rig is the PCI-e riser. Because there isn't enough physical space on the motherboard, each GPU in a mining rig connects to the motherboard via a PCI-e Riser. Each riser has three connections: to the (1) PCI-e slot on the motherboard, (2) GPU, and (3) power supply. 
 
@@ -200,12 +199,30 @@ We’ll explore this topic more in Section 3.
 #### Other
 
 Some other components you will need include
-* SSD: for storage. 32GB is almost always enough. An SSD is a good idea simply for the convenience of faster boot times. You might go through lots of trial and error setting up your miner. An extra minute or two for each reboot can add up. 
-* SSD cable: most SSDs don't come with the cable required to plug it in
+* SSD: for storage. 32GB is almost always enough. An SSD is a good idea simply for the convenience of faster boot times. You might go through lots of trial and error setting up your miner. An extra minute or two for each reboot can add up.
+* SATA cable: most SSDs don't come with the cable required to plug it in.
 * On-off switch: to turn on and off your miner
 * Wifi stick: to connect to the internet if an ethernet connection is not available
 * Keyboard, mouse, and monitor: you'll need to be able to connect each of these to your rig to set it up. In the future, you can set up remote desktop to manage it without a monitor, but it's easier to have these hardware to start
 * USB stick: for installing Windows
+
+### Example build
+
+Here's an example of all the parts you would need for a rig with four GTX 1070s. 
+
+| Component                | Model                           | Comment                       |
+|--------------------------|---------------------------------|-------------------------------|
+| Motherboard              | ASRock H110 Pro BTC+            | LGA 1151, DDR4, up to 13 GPUs |
+| CPU                      | Intel G3930 Kaby Lake           | LGA 1151                      |
+| RAM                      | doesn't matter                  | Any 4G DDR4 RAM               |
+| SSD                      | doesn't matter                  | Any 64GB SSD                  |
+| SATA Cable               | doesn't matter                  | Any SATA cable for the SSD    |
+| PSU                      | EVGA SuperNOVA 750 G2 80+ GOLD  |                               |
+| On/off cable             | doesn't matter                  |                               |
+| Internet                 | doesn't matter                  |                               |
+| GPU                      | (4) NVIDIA GTX 1070             |                               |
+| Risers                   | 006c powered risers             |                               |
+| Monitor, keyboard, mouse | doesn't matter                  |                               |
 
 ### Tips for finding stock
 

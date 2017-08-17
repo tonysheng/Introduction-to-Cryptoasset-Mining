@@ -6,25 +6,23 @@
 
 ![Bitcoin mining cartoon](../img/bitcoin_miner_cartoon.jpg)
 
-@TODO contact source https://www.ophtek.com/detect-bitcoin-malware-on-your-pc/
-
-I bought my first Bitcoin in 2014, back when the price was "only" $1200. Compared with the current prices of nearly $3000, that might seem cheap. But compared with the sub $25 prices of the preceding five years, $1200 was unbelievable.
+I bought my first Bitcoin in 2014, back when the price was "only" $1200. Compared with the current prices of over $4000, that might seem cheap. But compared with the sub $25 prices of the preceding five years, $1200 was unbelievable.
 
 The rapid rise of Bitcoin's price made overnight millionaires. Some accumulated their Bitcoins from trading and investing. Others used spare computing power to mine it--collecting stashes of Bitcoins for the cost of electricity.
 
-Today, the difficulty of mining Bitcoin is 804,525,194,568 times harder than it was in 2010. That means it takes billions of times more computing power to mine a single Bitcoin. As a result, most individuals no longer have the computing power to mine any meaningful quantity of Bitcoin.
+Today, the difficulty of mining Bitcoin is 800 billion times harder than it was in 2010. That means it takes nearly a trillion times more computing power to mine a single Bitcoin. Over the years, the hardware and software used to mine Bitcoin has improved tremendously, but not by a factor of a trillion. As a result, most individuals no longer have the computing power to mine Bitcoin.
 
-Instead, individual miners have turned to mining younger cryptoassets. Newer cryptoassets are less difficult to mine and some, like Ethereum, have rapidly grown in value. Many are profitable to mine at current prices and difficulty. This book aims to provide everything an individual would need to get started mining these cryptoassets.
+Instead, individual miners mine younger cryptoassets. Newer cryptoassets are less difficult to mine and some, like Ethereum, have rapidly grown in value. Many are profitable to mine at current prices and difficulty. This book aims to provide everything an individual would need to get started mining these cryptoassets.
 
 ![GPU Mining Rig](../img/mining_rig.jpeg)
 
-@TODO contact image source https://www.youtube.com/watch?v=jZWw1wkHPyA
+*Image source: https://www.youtube.com/watch?v=jZWw1wkHPyA*
 
-Getting started with cryptoasset mining involves an endless number of tiny decisions. What brand of GPU should you get? What coin should you mine? What should you set your memory clock to on an RX 570 mining Ethereum? Some of these decisions are critical and some will have no effect on your outcomes whatsoever. This book aims to guide you through all of these decisions--spending extra time on the critical ones and glossing over the unimportant. It's the book I wish I had when I got started. I hope it's helpful.
+Getting started with mining involves an endless number of tiny decisions. What brand of GPU? Which cryptoasset? What memory clock setting for an RX 570 mining Ethereum? Some of these decisions are critical and some will have no effect on mining outcomes. This book aims to guide the reader through each of these decisions--spending extra time on the critical ones and glossing over the unimportant. It's the book I wish I had when I got started. I hope it's helpful.
 
 ## Who is this book for?
 
-*Introduction to Cryptoasset Mining* is best suited for readers interested in mining cryptoassets using GPUs (GPU mining). The book provides a brief overview of ASIC mining, but is written as a how-to and reference book for GPU mining. 
+*Introduction to Cryptoasset Mining* is best suited for readers interested in mining cryptoassets using GPUs (GPU mining). The book provides a brief overview of ASIC mining, but is written as a how-to and reference book for GPU mining.
 
 [1] *Meet the Bitcoin Millionaires* - Bloomberg, 2013
 

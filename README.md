@@ -2,19 +2,43 @@
 ![Introduction to Cryptoasset Mining Cover](img/book-cover-750w.jpg)
 ## Book Source and Build System
 
-This repository contains the source code for the book "Introduction to Cryptoasset Mining" by Tony Sheng
+This repository contains the source code for the book "Introduction to Cryptoasset Mining" by [Tony Sheng](https://twitter.com/tonysheng)
 
 The source code of the book itself (/chapters) is licensed CC-BY-NC-ND
 
-Intend to use a fork of https://github.com/akosma/eBook-Template for the build system
+## Affiliate links and donations
+
+To maintain objectivity, there are no affiliate links contained in this book. All Amazon links are Amazon Smile links. If you wish to support the author, you can donate BTC or ETH to the following addresses:
+
+BTC: 17FzHrLW3wrb3S7CqZmbLn3hvSUXtg7wi4
+ETH: 0x7a364D25c4b0830733d3470DDFFeA3B6979D6944
 
 ## Current version
 
 Version 0: working draft
 
+### Tasks
+
+V0 tasks
+
+- [ ] Copy editing
+- [ ] Source all images
+- [ ] Link to helpful resources and suggested hardware
+
+V1 tasks
+
+- [ ] Acquire fresh assembly pictures for Section 3
+- [ ] Get comment from GPU and PSU makers on power and cable safety
+- [ ] Add sections for other OS (ethos, simpleos, linux)
+- [ ] Source protips from experienced miners
+
+V2 tasks
+
+- [ ] Build a database of benchmarks by GPU, Algorithm, Miner, OC settings
+
 ## Contributing
 
-The goal of this book is to provide an open-source resource for the cryptoasset mining community. Pull requests are welcome (and encouraged!). 
+The goal of this book is to provide an open-source resource for the cryptoasset mining community. Pull requests are encouraged. 
 
 ## Table of Contents
 
