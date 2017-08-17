@@ -217,9 +217,11 @@ Next, you'll need to install the latest drivers for your video cards.
 
 If you're using Nvidia cards and having trouble using CUDA miners, you may need to install the [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
 
+When you download the NVIDIA drivers make sure that you choose custom installation and uncheck GeForce Experience as that can sometimes cause driver crashes and it is an unnecessary program that is known to be buggy and inconsistent.
+
 ## Flashing AMD BIOS
 
-New miners are often disappointed with the performance of their AMD cards. They compare the hash rate of their cards with benchmarks posted online and see think their cards are 20%+ less effective. This difference can be accounted for by the card's BIOS. A good BIOS can improve the hashrate and power efficiency of an AMD card substantially.
+New miners are often disappointed with the performance of their AMD cards. They compare the hash rate of their cards with benchmarks posted online and see think their cards are 20%+ less effective. This difference can be accounted for by the card's BIOS. A good BIOS can improve the hash rate and power efficiency of an AMD card substantially.
 
 ### What is BIOS
 
@@ -307,6 +309,8 @@ If there are only a few mining programs and they all seem reputable, your best b
 ### Profitability
 
 The overall profitability of the miner is its hashing performance minus any fees. For example, most Ethereum miners use either Genoil's Ethminer or Claymore. Ethminer doesn't charge a developer fee, but Claymore charges 1%. You'd need Claymore to perform at least 1% better for it to be more profitable than Ethminer.
+
+If you want to always mine the most profitable algorithm you can use a program called Nicehash that will automatically mine the most profitable algorithm and get paid in Bitcoin. 
 
 ### Ease of use and customizability
 
