@@ -1,4 +1,4 @@
-[<< home](../README.md)	
+[<< home](../README.md)
 
 # Section 1: Introducing cryptoasset mining
 
@@ -12,9 +12,9 @@ A cryptoasset is a digital asset that secures transactions using cryptography. D
 
 Don't worry if this explanation and its benefits don't immediately make sense yet--it's a complicated concept that takes some time to understand. If you're interested in learning more, I recommend [*The Internet of Money*](https://smile.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454/ref=sr_1_1?ie=UTF8&qid=1502982058&sr=8-1&keywords=internet+of+money) by Andreas Antonopoulos.
 
-The top five most active cryptoassets as of July, 2017 are: 
+The top five most active cryptoassets as of July, 2017 are:
 
-Cryptoasset | Symbol | Description | Mineable? 
+Cryptoasset | Symbol | Description | Mineable?
 |---|---|---|---|
 Bitcoin | ![BTC icon](../img/icons/bitcoin.png) BTC | The original cryptocurrency | Yes
 Ethereum | ![ETH icon](../img/icons/ethereum.png) ETH | A decentralized platform that runs smart contracts | Yes
@@ -28,13 +28,13 @@ As you can see, not all cryptoassets are mineable. Of the top ten cryptoassets, 
 
 The term “mining” is a misnomer. It calls to mind a group of people searching for riches hidden away somewhere mysterious. In fact, the process more resembles payment processing. Transactions on the blockchain are automatically put into a “block” that needs to be validated. The process of mining validates the transactions. As a reward, the miner responsible for validating a block receives some set amount of new coins.
 
-Without mining, transactions would not get verified. Mining is the engine that keeps the blockchain running. 
+Without mining, transactions would not get verified. Mining is the engine that keeps the blockchain running.
 
-Why does this take so much processing power? You can think of each block as containing a complex math problem--one that takes significant resources to solve. Once the problem is solved, the block can be added to the record of all transactions, and the miner is rewarded. 
+Why does this take so much processing power? You can think of each block as containing a complex math problem--one that takes significant resources to solve. Once the problem is solved, the block can be added to the record of all transactions, and the miner is rewarded.
 
 The relationship between mining power and rewards is “difficulty”. If the difficulty is high, miners receive fewer rewards for more mining power. Over time, difficulty increases. This can be due to increasing the time in between each new block or reducing the size of each new block.
 
-However, the biggest factor that impacts the difficulty of mining a particular cryptoasset is how many people are trying to mine it. 
+However, the biggest factor that impacts the difficulty of mining a particular cryptoasset is how many people are trying to mine it.
 
 Because only one miner can receive a reward for solving a block, everybody competes to solve the problem first. So the difficulty of mining is proportional to the number of people trying to mine it.
 
@@ -50,9 +50,9 @@ Profits today from mining follow a simple formula: total value of cryptoassets m
 
 There are several online calculators you can use to estimate profits *today*. [whattomine.com](https://www.whattomine.com) is the most popular and [MyCryptoBuddy](http://www.mycryptobuddy.com/EthereumMiningCalculator) has a few more options for advanced calculations (it takes difficulty into account).
 
-The price of cryptoassets crash and rise much more frequently than other assets, which makes it hard to estimate future profits. The difficulty will also increase, but it's impossible to predict whether the efficiency of new graphics cards and software might offset that increase. 
+The price of cryptoassets crash and rise much more frequently than other assets, which makes it hard to estimate future profits. The difficulty will also increase, but it's impossible to predict whether the efficiency of new graphics cards and software might offset that increase.
 
-Hardware costs are also unpredictable. When times are good, hardware is hard to come by. In the early summer of 2017, used graphics cards were selling for over 2x their retail price. Litecoin ASIC miners were selling for 4-5x their retail price. 
+Hardware costs are also unpredictable. When times are good, hardware is hard to come by. In the early summer of 2017, used graphics cards were selling for over 2x their retail price. Litecoin ASIC miners were selling for 4-5x their retail price.
 
 Historically, mining has always been profitable in the long run even when the price dips temporarily, because cryptoassets have appreciated consistently over time. If this stops, mining will become less profitable.
 
@@ -65,8 +65,8 @@ There are a few requirements for mining. If you don't meet any of these requirem
 - [ ] You can afford to lose my initial investment
 Location:
 - [ ] You have enough space for a mining setup
-- [ ] You have adequate electrical wiring to power my miner
-- [ ] You have adequate cooling for my miner
+- [ ] You have adequate electrical wiring to power your miner
+- [ ] You have adequate cooling your my miner
 
 If you meet all these requirements, then you have to ask yourself whether it's worth the time and effort to set up your miner. Building and maintaining a miner can be challenging, especially if you're new to the technology, but it's a rewarding process.
 
@@ -79,11 +79,11 @@ If you meet all these requirements, then you have to ask yourself whether it's w
 
 ## Case study: SIGT
 
-In late July of 2017, sentiment in the mining community was at an all time low. A GTX 1070 went from generating over $5 a day to less than $2 a day due to rapidly dropping cryptoasset prices (ETH had crashed from $420 to $135) and increasing difficulty. Many miners were selling their rigs, trying to recover some of their cost. New miners that estimated they could pay off their rigs in fewer than three months were now looking at twelve or never. 
+In late July of 2017, sentiment in the mining community was at an all time low. A GTX 1070 went from generating over $5 a day to less than $2 a day due to rapidly dropping cryptoasset prices (ETH had crashed from $420 to $135) and increasing difficulty. Many miners were selling their rigs, trying to recover some of their cost. New miners that estimated they could pay off their rigs in fewer than three months were now looking at twelve or never.
 
-In the rubble of a crypto asset market that had just crashed from $120B to $60B, a new crytoasset called Signatum (SIGT) quietly launched. Unlike nearly every recently launched cryptoasset, SIGT did not start off with a premine or initial coin offering that would distribute a large chunk to creators and early investors—it started with zero SIGT in circulation. SIGT would be initially generated by miners. 
+In the rubble of a crypto asset market that had just crashed from $120B to $60B, a new crytoasset called Signatum (SIGT) quietly launched. Unlike nearly every recently launched cryptoasset, SIGT did not start off with a premine or initial coin offering that would distribute a large chunk to creators and early investors—it started with zero SIGT in circulation. SIGT would be initially generated by miners.
 
-Historically, AMD cards were the most profitable GPUs—generating more returns for lower cost. However, with SIGT and its new SkunkHash-Raptor algorithm, NVIDIA cards performed substantially better. This was incentive for miners that had built rigs with GTX cards. 
+Historically, AMD cards were the most profitable GPUs—generating more returns for lower cost. However, with SIGT and its new SkunkHash-Raptor algorithm, NVIDIA cards performed substantially better. This was incentive for miners that had built rigs with GTX cards.
 
 Few were aware of SIGT at the start, but miners soon took note when mining profitability calculators started to suggest SIGT. In early August, a miner could make five times the profit per day by mining SIGT. By the second week of August, mining difficulty had risen tenfold from 4,000 to 40,000, but profitability was still 2-3x higher than the next most profitable cryptoasset.
 
@@ -93,11 +93,11 @@ Some miners with lucky timing were able to pay off their mining rigs in a single
 
 SIGT built in diminishing returns to their block rewards. At certain milestones, the block rewards would halve. The first of these halvings was to occur at block 30,000. This block was hit on August 8th. All of a sudden, miners were receiving half of what they’d received previously.
 
-Simultaneously, the price of SIGT dumped from a high of sixteen cents to around eight cents. In one day, mining rewards and SIGT price halved. Meanwhile, Ethereum had climbed its way back up to over $300, making it much more profitable to mine. Many miners ditched SIGT. 
+Simultaneously, the price of SIGT dumped from a high of sixteen cents to around eight cents. In one day, mining rewards and SIGT price halved. Meanwhile, Ethereum had climbed its way back up to over $300, making it much more profitable to mine. Many miners ditched SIGT.
 
-These crazy few weeks of mining illustrate a few important dynamics in mining. 
+These crazy few weeks of mining illustrate a few important dynamics in mining.
 
-First, mining profitability is impacted by several volatile factors. Difficulty can grow tenfold in a week. A cryptoasset can lose or gain half its value in a day. A new most profitable cryptoasset might favor an uncommon GPU. This volatility can be frustrating, but it can also generate huge returns for relatively low cost. 
+First, mining profitability is impacted by several volatile factors. Difficulty can grow tenfold in a week. A cryptoasset can lose or gain half its value in a day. A new most profitable cryptoasset might favor an uncommon GPU. This volatility can be frustrating, but it can also generate huge returns for relatively low cost.
 
 Second, sometimes a year’s worth of profits can be made in a week. If you hope to take advantage of these moments, it’s important to keep an eye on the mining community. There’s no easy way to do this because if someone is aware of a hyper profitable coin, they’re incentive is to keep it a secret. Keeping tabs on bitcointalk.org and relevant subreddits can help you catch the wave a bit later, though.
 
