@@ -2,27 +2,27 @@
 
 The easiest part of assembling a miner is putting together hardware components. Most of the steps are impossible to mess up. However, there are a few common mistakes that can create serious safety hazards. We'll spend some extra time on those common mistakes in this section.
 
-Most people spend the majority of their set up time configuring software and optimizing graphics cards. This includes downloading and installing all your software (e.g. operating system, drivers, miners) and configuring your cards (e.g. BIOS modifications, overclocking). Much of the configuration is case-by-case, but we'll share techniques to get the most of *your* cards. 
+Most people spend the majority of their set up time configuring software and optimizing graphics cards. This includes downloading and installing all your software (e.g. operating system, drivers, miners) and configuring your cards (e.g. BIOS modifications, overclocking). Much of the configuration is case-by-case, but we'll share techniques to get the most of *your* cards.
 
 ## Assess electrical requirements
 
-First, make sure that the electrical circuits in your space can support the wattage of your miner. You need to estimate your peak electricity usage on a given circuit, including your miner. If your peak electricity usage exceeds the capacity of your circuit, you will trip breakers or worse. 
+First, make sure that the electrical circuits in your space can support the wattage of your miner. You need to estimate your peak electricity usage on a given circuit, including your miner. If your peak electricity usage exceeds the capacity of your circuit, you will trip breakers or worse.
 
 Unfortunately, a single standard for residential circuits does not exist. A US standard doesn’t even exist. The most common circuits are 20amps (running 120V electricity) which means you can safely draw 16 amps: roughly 1,920 watts. However, you should not simply assume that your circuit(s) are the most common type.
 
 You can check your electricity meter or circuit breaker. The breaker amperage is usually labeled on each breaker and sometimes there’s a notation of the voltage.
 
-It’s important to get this right, so if you plan to use a lot of power and aren’t confident that your circuit can handle it, call an electrician. In the US, an inspection shouldn’t cost more than $100. 
+It’s important to get this right, so if you plan to use a lot of power and aren’t confident that your circuit can handle it, call an electrician. In the US, an inspection shouldn’t cost more than $100.
 
 ## Confirm compatibility of hardware
 
-Take some time to confirm that all of your hardware works together: 
+Take some time to confirm that all of your hardware works together:
 
 - [ ] Your motherboard can support the number of GPUs
 - [ ] Your RAM and CPU are compatible with your motherboard
 - [ ] Your PSU can support the usage of your rig
 
-Go back to [Section 2](section2.mdown) if you're unsure about any of this. 
+Go back to [Section 2](section2.mdown) if you're unsure about any of this.
 
 ## Assemble miner
 
@@ -50,19 +50,19 @@ Go back to [Section 2](section2.mdown) if you're unsure about any of this.
 
 ![Unbox the motherboard](../img/assembly/miner-assembly-1-mobo.png)
 
-If you’re building your rig on some sort of rack or case, make sure the motherboard is not touching a conductive material like metal. The simplest way to avoid this is to lay the motherboard down on the foam that it comes with in the box. 
+If you’re building your rig on some sort of rack or case, make sure the motherboard is not touching a conductive material like metal. The simplest way to avoid this is to lay the motherboard down on the foam that it comes with in the box.
 
 #### 2. Connect the CPU and CPU fan
 
 ![Connect the CPU](../img/assembly/miner-assembly-2-cpu.png)
 
-Unlock the CPU slot and place the chip inside. Then place the fan over it and screw in the fan if needed. Plug the fan into the slot labeled “CPU FAN” on the motherboard. 
+Unlock the CPU slot and place the chip inside. Then place the fan over it and screw in the fan if needed. Plug the fan into the slot labeled “CPU FAN” on the motherboard.
 
 #### 3. Install RAM
 
 ![Install RAM](../img/assembly/miner-assembly-3-ram.png)
 
-Unlock the RAM socket and place your RAM in the slot. There’s only direction it will fit, so if it doesn’t fit, turn it around. 
+Unlock the RAM socket and place your RAM in the slot. There’s only direction it will fit, so if it doesn’t fit, turn it around.
 
 #### 4. Connect SSD
 
@@ -72,11 +72,11 @@ Plug the SATA cable into the motherboard SATA slot, then connect the SSD to the 
 
 ![Connect on/off switch](../img/assembly/miner-assembly-4-onoff.png)
 
-Connect the on/off cable to the power button pins. The configuration may vary by motherboard, but will usually be labeled PWRBTN. 
+Connect the on/off cable to the power button pins. The configuration may vary by motherboard, but will usually be labeled PWRBTN.
 
 #### 6. Connect ethernet or USB Wifi stick
 
-Plug it in. 
+Plug it in.
 
 #### 7. Connect a GPU to a riser
 
@@ -90,41 +90,41 @@ Plug the riser into the motherboard PCI-e slot using the USB cable.
 
 #### 9. Connect PSU to:
 
-Do not plug the PSU into an outlet while you connect it to the following components. 
+Do not plug the PSU into an outlet while you connect it to the following components.
 
 ##### 9.1. Motherboard
 
-![Plug in mobo PSU cable](../img/assembly/miner-assembly-6-psu-mobo.png)
+![Plug in motherboard PSU cable](../img/assembly/miner-assembly-6-psu-mobo.png)
 
 Plug in the motherboard power cable.
 
 ##### 9.2. CPU
 
-![Plug in mono CPU cable](../img/assembly/miner-assembly-7-psu-cpu.png)
+![Plug in motherboard CPU cable](../img/assembly/miner-assembly-7-psu-cpu.png)
 
 Plug in the CPU cable
 
 ##### 9.3. SSD
 
-Plug a SATA cable into the PSU and connect the SSD to it. 
+Plug a SATA cable into the PSU and connect the SSD to it.
 
 ##### 9.4. GPU
 
 Power your GPU with VGA cables from your PSU (8-pin to 6+2pin).
 
-![8 to 6+2 pin cable](../img/8-6+2.jpg) 
+![8 to 6+2 pin cable](../img/8-6+2.jpg)
 
-*The VGA cable that comes with your PSU should look like this but just longer. 1x 8pin on one side and 6+2pin on the other (sometimes 2x 6+2pin)* 
+*The VGA cable that comes with your PSU should look like this but just longer. 1x 8pin on one side and 6+2pin on the other (sometimes 2x 6+2pin)*
 
 ##### 9.5. Riser
 
 ###### Option 1 (recommended): power each riser directly from the PSU
 
-Ideally, you will connect each of the risers to a VGA cable (8-pin to 6+2pin). 
+Ideally, you will connect each of the risers to a VGA cable (8-pin to 6+2pin).
 
 ###### Option 2: power each riser using the adapter
 
-The adapters that come with risers are notoriously poor quality and some miners horror stories where they’ve melted. If you can avoid it, do not use them. But if it’s not avoidable, make sure to power no more than 2 risers with a single PSU cable. 
+The adapters that come with risers are notoriously poor quality and some miners horror stories where they’ve melted. If you can avoid it, do not use them. But if it’s not avoidable, make sure to power no more than 2 risers with a single PSU cable.
 
 ![Power riser with SATA cable](../img/assembly/miner-assembly-8-psu-riser.png)
 
@@ -134,7 +134,7 @@ If you’re using version 006c risers, the adapter is a 6-pin to SATA adapter. Y
 #### 11. Connect keyboard and mouse
 #### 12. Plug in the PSU and power up
 
-Power on the PSU and turn it on. If the fans start spinning, you're in good shape. You should also see the monitor turn on. 
+Power on the PSU and turn it on. If the fans start spinning, you're in good shape. You should also see the monitor turn on.
 
 You will be able to install the rest of your GPUs in this way, but first, you'll want to install your operating system. If you have AMD cards, you'll likely want to edit the BIOS settings to get better performance. This is better done with one card connected at a time, so you'll want to flash your cards before connecting all of them to the rig.
 
@@ -146,7 +146,7 @@ The component most likely to fail is the power adapter that comes with PCI-e ris
 
 The community disagrees with the root cause of these failures. Some think this happens when a riser draws more power than SATA can safely transfer. Others think low quality components cause the failures (https://www.youtube.com/watch?v=TataDaUNEFc&app=desktop).
 
-The one thing that is completely clear: stay away from Molex to SATA adapters. 
+The one thing that is completely clear: stay away from Molex to SATA adapters.
 
 #### How much power can a riser safely draw?
 
@@ -166,7 +166,7 @@ SATA is rated for the lowest wattage, and is thus most at risk for overdraw. If 
 
 The main source of power for a GPU comes directly from the PSU to the GPU via a 6+2pin connection. The remainder of the power comes from the PCI-e riser. The PCI-e specification allows for up to 75W to be drawn from the PCI-e slot, so the max wattage a riser can draw is 75W.
 
-The GPU will take either a 6-pin or 8-pin connection directly from the PSU. A 6-pin connection provides up to 75W of power, while an 8-pin (or 6+2 pin) can provide up to 150W. 
+The GPU will take either a 6-pin or 8-pin connection directly from the PSU. A 6-pin connection provides up to 75W of power, while an 8-pin (or 6+2 pin) can provide up to 150W.
 
 A GPU will draw power directly from the PSU first, then take any additional power from the riser. To estimate power draw from the risers, subtract total power usage from the max power the GPU receives directly. Some examples below:
 
@@ -177,13 +177,13 @@ GTX 1070 | 8-pin (150W max) | 110 | 0
 GTX 1080ti | 8-pin (150W max) | 140 | 0
 RX 580 | 8-pin (150W max) | 135 | 0
 
-This suggests that failures aren't happening because of overdraw, but due to faulty components. 
+This suggests that failures aren't happening because of overdraw, but due to faulty components.
 
 #### So how should I power my risers?
 
-First, never use the Molex to SATA adapters that come with risers. There is mounting evidence that manufacturing defects in these adapters can cause fires. These faulty adapters can melt and potentially cause fires even without overdrawing power. 
+First, never use the Molex to SATA adapters that come with risers. There is mounting evidence that manufacturing defects in these adapters can cause fires. These faulty adapters can melt and potentially cause fires even without overdrawing power.
 
-Connection type | Using adapter | Recommended 
+Connection type | Using adapter | Recommended
 ---|---|---|
 Molex | Molex to SATA (FIRE HAZARD) | Plug PSU Molex cable directly into riser
 6-pin | 6-pin to SATA | Plug PSU 6-pin cable directly into riser
@@ -193,13 +193,13 @@ The safest way to power your risers is to plug a power cable directly from your 
 
 ## Install operating system
 
-While many people prefer the simplicity of ethOS or the open source nature of Linux, Windows is the easiest way to get started. 
+While many people prefer the simplicity of ethOS or the open source nature of Linux, Windows is the easiest way to get started.
 
 ### Windows
 
-In order to install Windows on your mining rig, you'll need a USB stick and another computer capable of downloading and running the "Windows USB/DVD Download Tool". 
+In order to install Windows on your mining rig, you'll need a USB stick and another computer capable of downloading and running the "Windows USB/DVD Download Tool".
 
-Simply follow the [instructions from Microsoft](https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool) to download the Windows installer to your USB stick. 
+Simply follow the [instructions from Microsoft](https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool) to download the Windows installer to your USB stick.
 
 Once the Windows installer is on the USB, plug it into the mining rig, turn it on, and follow the instructions.
 
@@ -211,7 +211,7 @@ Depending on demand, instructions for non-Windows OS might be added in future ve
 
 ## Install drivers
 
-Next, you'll need to install the latest drivers for your video cards. 
+Next, you'll need to install the latest drivers for your video cards.
 * [Nvidia drivers](https://www.geforce.com/drivers)
 * [AMD drivers](http://support.amd.com/en-us/download)
 
@@ -219,24 +219,24 @@ If you're using Nvidia cards and having trouble using CUDA miners, you may need 
 
 ## Flashing AMD BIOS
 
-New miners are often disappointed with the performance of their AMD cards. They compare the hash rate of their cards with benchmarks posted online and see think their cards are 20%+ less effective. This difference can be accounted for by the card's BIOS. A good BIOS can improve the hashrate and power efficiency of an AMD card substantially. 
+New miners are often disappointed with the performance of their AMD cards. They compare the hash rate of their cards with benchmarks posted online and see think their cards are 20%+ less effective. This difference can be accounted for by the card's BIOS. A good BIOS can improve the hashrate and power efficiency of an AMD card substantially.
 
 ### What is BIOS
 
-A BIOS is a type of software that's programmed onto a specific hardware component. This software helps launch and run the component. Sometimes, the BIOS contains settings that can be modified to impact the way the component runs. 
+A BIOS is a type of software that's programmed onto a specific hardware component. This software helps launch and run the component. Sometimes, the BIOS contains settings that can be modified to impact the way the component runs.
 
 For our purposes, the most important BIOS modifications will affect power consumption and memory usage.
 
 ### Why should I flash it?
 
-The stock BIOS that comes with a new graphics card is not optimal for mining. It consumes too much power and does not hash at the highest possible rate. 
+The stock BIOS that comes with a new graphics card is not optimal for mining. It consumes too much power and does not hash at the highest possible rate.
 
 ### How do I flash it?
 
 #### Download software
 
 * [GPU-Z](http://www.guru3d.com/files-details/gpu-z-download-techpowerup.html): A handy software for stats on your GPUs
-* [ATIFlash](https://www.techpowerup.com/downloads/2728/atiflash-2-74): A program that lets you save and load BIOS files. You'll use this to flash your card. 
+* [ATIFlash](https://www.techpowerup.com/downloads/2728/atiflash-2-74): A program that lets you save and load BIOS files. You'll use this to flash your card.
 * [AMD Pixel Clock Patcher](https://www.monitortests.com/forum/Thread-AMD-ATI-Pixel-Clock-Patcher): a utility that patches the BIOS so it's compatible with the currently installed driver
 * [Polaris BIOS Editor](https://github.com/caa82437/PolarisBiosEditor): A tool to manually edit BIOS values. This is needed if you can't find a BIOS that works perfectly for your card
 
@@ -244,7 +244,7 @@ The stock BIOS that comes with a new graphics card is not optimal for mining. It
 
 ##### 1. Backup your BIOS
 
-Some cards have a dual BIOS option. If your card has it, there's a switch near the PCI-e slot. Flip it to the "silent" position: in the direction of the HDMI ports. Doing this will preserve the original BIOS (which you can access by flipping the switch back). 
+Some cards have a dual BIOS option. If your card has it, there's a switch near the PCI-e slot. Flip it to the "silent" position: in the direction of the HDMI ports. Doing this will preserve the original BIOS (which you can access by flipping the switch back).
 
 Open as administrator ATIFlash, confirm your card is selected, and then save the BIOS
 
@@ -254,7 +254,7 @@ Open GPU-Z and look for your card's memory type. It should be either Samsung or 
 
 ##### 3. Prepare a new BIOS
 
-You can either manually create a new BIOS for your card or find a BIOS that was modded by the community. 
+You can either manually create a new BIOS for your card or find a BIOS that was modded by the community.
 
 A great place to start is [Anorak's VBIOS collection](https://anorak.tech/c/downloads). Search for your card and memory type.
 
@@ -264,17 +264,17 @@ If you'd prefer to manually modify your BIOS, you'll need to use Polaris BIOS ed
 2. Open the backup BIOS you saved
 3. Edit the settings you want to modify
 
-The best settings depend on the card and memory type, so if you want to manually modify your BIOS, you'll need to do your own research on what to change. 
+The best settings depend on the card and memory type, so if you want to manually modify your BIOS, you'll need to do your own research on what to change.
 
 ##### 4. Flash your BIOS using ATIFlash
 
-Run ATIFlash as an administrator, open the modified BIOS, and press Flash. 
+Run ATIFlash as an administrator, open the modified BIOS, and press Flash.
 
 If successful, you'll be prompted to restart your computer. Don't restart yet! You want to patch your BIOS first.
 
 ##### 5. Patch your BIOS
 
-Run AMD Pixel Clock Patcher and reboot. 
+Run AMD Pixel Clock Patcher and reboot.
 
 #### Common problems
 
@@ -284,7 +284,7 @@ You'll need to jump pins 1 + 8 by following [these instructions](https://forum.e
 
 ##### System not recognizing the card properly
 
-For AMD cards, this is often because the BIOS has not been properly patched (step 5 above). If patching doesn’t solve this issue, try plugging the monitor into the unrecognized card. 
+For AMD cards, this is often because the BIOS has not been properly patched (step 5 above). If patching doesn’t solve this issue, try plugging the monitor into the unrecognized card.
 
 ##### Overclock software cannot change core or memory clocks
 
@@ -292,21 +292,21 @@ This is usually due to the system not recognizing the card (see above)
 
 ## Cryptoasset wallets
 
-Cryptoasset wallets are where you'll receive your mining rewards. Wallet safety is an important topic and one you should research thoroughly on your own. There are two options for wallets: 1) exchange wallet and 2) private wallet. 
+Cryptoasset wallets are where you'll receive your mining rewards. Wallet safety is an important topic and one you should research thoroughly on your own. There are two options for wallets: 1) exchange wallet and 2) private wallet.
 
 For the most part, mining to your private wallet is the best choice. Assets on an exchange aren't *really* yours. If the exchange is hacked or goes down, there's no guarantee you'll get your money back. However, it is easier to exchange your mining rewards for something else if you mine directly to an exchange. To set up an exchange wallet, follow the directions at the exchange of your choice.
 
-For private wallets, follow the official instructions for whatever cryptoasset you're mining or visit its community to get recommendations. 
+For private wallets, follow the official instructions for whatever cryptoasset you're mining or visit its community to get recommendations.
 
 ## Mining software
 
-There are usually only a couple mining programs in use for a given cryptoasset, but which one should you use? 
+There are usually only a couple mining programs in use for a given cryptoasset, but which one should you use?
 
-If there are only a few mining programs and they all seem reputable, your best bet is to just try each of them and see which you prefer. Some things to consider when assessing programs:
+If there are only a few mining programs and they all seem reputable, your best bet is to just try each of them and see which you prefer. Some things to consider when assessing programs: developer fee, whether or not it has active developers, mining speed on specific algorithm compared to other programs.
 
 ### Profitability
 
-The overall profitability of the miner is its hashing performance minus any fees. For example, most Ethereum miners use either Genoil's Ethminer or Claymore. Ethminer doesn't charge a developer fee, but Claymore charges 1%. You'd need Claymore to perform at least 1% better for it to be more profitable than Ethminer. 
+The overall profitability of the miner is its hashing performance minus any fees. For example, most Ethereum miners use either Genoil's Ethminer or Claymore. Ethminer doesn't charge a developer fee, but Claymore charges 1%. You'd need Claymore to perform at least 1% better for it to be more profitable than Ethminer.
 
 ### Ease of use and customizability
 
@@ -314,7 +314,7 @@ Some miners are operated using basic command line scripts while others have grap
 
 ### Stability
 
-For whatever reason, one software might be more stable on your rig than others. This is another good reason to test each of the softwares to see which one works best for you.
+For whatever reason, one software might be more stable on your rig than others. This is another good reason to test each of the softwares to see which one works best for you. Also you may want to consider testing other versions of the said software to get the maximum performance and stability for your GPU.
 
 ### Popular mining software
 
@@ -324,23 +324,25 @@ Miner | Supported cryptoassets | Pros | Cons
 [Claymore](https://bitcointalk.org/index.php?topic=1433925.0) Dual Ethereum Miner | ETH, DCR, LBRY, SIA
 [EWBF's CUDA Zcash Miner](https://bitcointalk.org/index.php?topic=1707546.0) | ZEC | Efficient | No AMD support
 [Nicehash Miner](https://bitcointalk.org/index.php?topic=1274983.0) | Close to all | Automatically picks most profitable cryptoassets to mine, pays out in BTC | Higher fees
-[ccminer](https://bitcointalk.org/index.php?topic=826901.0) | Various Altcoins (e.g. Groestl, X11) | Supports less common cryptoassets | ?? 
+[ccminer](https://bitcointalk.org/index.php?topic=826901.0) | Various Altcoins (e.g. Groestl, X11) | Supports less common cryptoassets | ??
 
 Which miner you use depends largely on the cryptoasset you want to mine. If you want Bitcoin, Nicehash is the way to go. If you want Ethereum, try both Ethminer and Claymore. If you want to dual mine, Claymore is the only way to go.
 
-I switched mining softwares three times over the course of a week mining SIGT. Using the official miner (ccminer), my GTX 1060 hashed at 15 Mh/s. From the SIGT bitcointalk.org thread, I saw that a fork of ccminer called “palginmod” was performing better, leading to 18Mh/s. Finally, I found sgwin miner, which got me to 20Mh/s--a 30%+ increase from the official miner. 
+I switched mining softwares three times over the course of a week mining SIGT. Using the official miner (ccminer), my GTX 1060 hashed at 15 Mh/s. From the SIGT bitcointalk.org thread, I saw that a fork of ccminer called “palginmod” was performing better, leading to 18Mh/s. Finally, I found sgwin miner, which got me to 20Mh/s--a 30%+ increase from the official miner.
 
 ## Mining pools
 
-Most individual miners mine with a group of other miners (a pool) instead of mining on their own. Individual miners won't have a high enough hashrate to solve blocks regularly enough to get a payout. Pools solve this problem by grouping the hashing power of lots of miners, increasing the likelihood the block is solved by the pool, and then distributes the rewards to the members of the pool. 
+Most individual miners mine with a group of other miners (a pool) instead of mining on their own. Individual miners won't have a high enough hashrate to solve blocks regularly enough to get a payout. Pools solve this problem by grouping the hashing power of lots of miners, increasing the likelihood the block is solved by the pool, and then distributes the rewards to the members of the pool.
 
 ### How to choose a pool
 
-For new miners, the biggest pool might seem like the obvious choice: more miners means more solved blocks which means more stable rewards. However, choice of pool can have important consequences both on your mining experience and the impact to the community. 
+For new miners, the biggest pool might seem like the obvious choice: more miners means more solved blocks which means more stable rewards. However, choice of pool can have important consequences both on your mining experience and the impact to the community. You need to find the best combination of consistency and pool payouts for your needs.
+
+Some coins may have an option to mine on the P2Pool network which can provide you a higher payout than a traditional pool assuming you have a good latency to the node you are connecting to. Also along with getting a slightly higher payout you can set your own fees assuming you setup your own node. To maximize profit search how to setup a P2Pool node for whatever coin you are mining. Also by setting up your own node and using the P2Pool network your are helping to decentralize the coin and making sure that a pool doesn't do a 51% attack.
 
 #### Example pools for Ethereum
 
-(currently copied from https://www.reddit.com/r/EtherMining/wiki/software/pools) 
+(currently copied from https://www.reddit.com/r/EtherMining/wiki/software/pools)
 
 * **Pool**: Collection of miners
 * **Fee**: Cost to mine on the pool
@@ -366,21 +368,21 @@ Pool | Fee | Min Payout | VarDiff | Monitoring | Server Locations | Coins | Paym
 
 #### The risk of joining the largest pool
 
-If a single pool starts mining more than 50% of the blocks, the community is at risk of a 51% attack. Blockchain consensus is reached by majority. If one group is validating the majority (51%+) of transactions, it can manipulate the public ledger (blockchain) at will. 
+If a single pool starts mining more than 50% of the blocks, the community is at risk of a 51% attack. Blockchain consensus is reached by majority. If one group is validating the majority (51%+) of transactions, it can manipulate the public ledger (blockchain) at will.
 
-At the time of writing Ethermine has 27.6% of the total hashrate. All things equal, a miner would be helping the community by mining with a pool that was not at risk of reaching 51%. 
+At the time of writing Ethermine has 27.6% of the total hashrate. All things equal, a miner would be helping the community by mining with a pool that was not at risk of reaching 51%.
 
 ## Overclocking (and underpowering)
 
 ### What is overclocking?
 
-Overclocking is the process of using software to change the settings of your card. These settings can impact performance, power usage, and temperature. Whether you're mining with AMD or Nvidia cards, some amount of overclocking will be required to reach optimal mining performance. In most cases, you'll be able to get a better hashrate with lower power draw by overclocking and underpowering. 
+Overclocking is the process of using software to change the settings of your card. These settings can impact performance, power usage, and temperature. Whether you're mining with AMD or Nvidia cards, some amount of overclocking will be required to reach optimal mining performance. In most cases, you'll be able to get a better hashrate with lower power draw by overclocking and underpowering.
 
 ### Download software
 
 [MSI Afterburner](https://us.msi.com/) is the most popular overclocking software, but you can use [Sapphire Trixx](http://www.sapphiretech.com/catapage_tech.asp?cataid=291&lang=eng) for AMD cards, [ASUS GPU Tweak](https://www.asus.com/us/site/graphics-cards/gpu-tweak-ii/) and so on.
 
-Try Afterburner first and if it's not meeting your needs, try the others. 
+Try Afterburner first and if it's not meeting your needs, try the others.
 
 ### Recommended settings
 
@@ -392,13 +394,15 @@ The goal with overclocking is to maximize performance while minimizing power dra
 
 The two settings that will improve performance are Core Clock and Memory Clock. Different cryptoassets respond differently to changes in these clocks. Ethereum, for example, is impacted most by memory clock whereas Zcash is more impacted by core clock. This means there isn’t a one-size-fits-all setting for a specific graphics card.
 
-Moreover, different versions of the same graphics card respond differently to Core and Memory boosts. Just because one version of the RX580 can handle +200MHz memory doesn’t mean all RX580s can handle it. 
+Moreover, different versions of the same graphics card respond differently to Core and Memory boosts. Just because one version of the RX580 can handle +200MHz memory doesn’t mean all RX580s can handle it.
+
+On some miners such as CCMiner there is an intensity flag you can add to increase your hash rate. Turn it up to high and your miner will be very unstable. I recommend playing around with the intensity value and getting it as high as possible while keeping a stable mining rig.
 
 #### Minimizing power draw
 
 For most cards, you can significantly reduce power draw without impacting performance. For AMD cards, this is primarily done reducing Core Voltage (“undervolting”) and for Nvidia cards, reducing the Power Limit.
 
-For example, a RX 580 will hash the the same even if it’s Core Voltage is reduced by 100 or more. And the performance of GTX cards shouldn’t be impacted by a Power Limit reduction to 70%. 
+For example, a RX 580 will hash the the same even if it’s Core Voltage is reduced by 100 or more. And the performance of GTX cards shouldn’t be impacted by a Power Limit reduction to 70%.
 
 #### Managing temperature
 
@@ -406,15 +410,15 @@ There’s a myth that mining will ruins GPUs. However, there’s little to no ev
 
 However, high temperatures *will* wear out the components and reduce the life span of a GPU. So keeping the cards at a reasonable temperature should be a priority. Miners have differing opinions on the optimal temperature range, but mostly agree that anything over 80 degrees Celsius is too much. Personally, I like to run my cards well below 70 degrees Celsius.
 
-Your weapon of choice in managing heat is fan speed. Either manually set the fan to a speed that keeps the card cool or set the fan to auto so it responds to the temperature of your card. In the newest version of Afterburner, you can also draw a custom curve that lets you decide what fan speed should run at a given GPU temperature. 
+Your weapon of choice in managing heat is fan speed. Either manually set the fan to a speed that keeps the card cool or set the fan to auto so it responds to the temperature of your card. In the newest version of Afterburner, you can also draw a custom curve that lets you decide what fan speed should run at a given GPU temperature.
 
 #### Overclock benchmarks
 
-The best way to find overclock settings that work well for your card and cryptoasset is Google. As far as I know, there’s no centralized database (yet). Make sure to be specific with your card details when searching. For example: `GIGABYTE RX 580 8GB STRIX Ethereum Overclock Settings` will yield better results than `RX 580 Mining Overclock Settings`. 
+The best way to find overclock settings that work well for your card and cryptoasset is Google. As far as I know, there’s no centralized database (yet). Make sure to be specific with your card details when searching. For example: `GIGABYTE RX 580 8GB STRIX Ethereum Overclock Settings` will yield better results than `RX 580 Mining Overclock Settings`.
 
 ### Common problems
 
-#### My hashrate is lower after overclocking
+#### My hash rate is lower after overclocking
 
 If you overclock beyond what your card can handle, it will perform worse than if you didn't overclock it. For example, when I go over 2100 memory clock on my RX580 8GB, my ETH hashrate will drop from ~28 to 20 (and lower as the clock goes higher).
 
@@ -422,7 +426,7 @@ If you overclock beyond what your card can handle, it will perform worse than if
 
 GPU crash can be caused by one or both of two related problems: (1) overclocking too much (2) underpowering too much.
 
-If you exceed the memory or core clock that your GPU can handle, it can cause instability and crash the card. On the flip-side, if you're undervolting or underpowering your card, your card might not be getting enough power to run properly. Either or some combination of both could cause crashes. 
+If you exceed the memory or core clock that your GPU can handle, it can cause instability and crash the card. On the flip-side, if you're undervolting or underpowering your card, your card might not be getting enough power to run properly. Either or some combination of both could cause crashes.
 
 #### Various miner errors like “Cannot Create DAG”
 
@@ -430,7 +434,7 @@ Miner errors are most commonly caused by one of two problems:
 
 1) Virtual memory is not set high enough
 
-For multi-GPU rigs mining Ethereum, “Cannot Create DAG” is one of the most common issues. This happens because virtual memory is insufficient--easily fixed with a simple setting change. 
+For multi-GPU rigs mining Ethereum, “Cannot Create DAG” is one of the most common issues. This happens because virtual memory is insufficient--easily fixed with a simple setting change.
 
 Open explorer > Right click “This PC” > Properties > Advanced System Settings > Advanced > Performance > Settings > Advanced >    Change Virtual Memory > Uncheck “Automatically merge” > Select “Custom Size” > Put recommended size in the initial size and 16400 for the maximum > Click set > Restart
 
@@ -438,17 +442,17 @@ It’s easier to follow along with [this video from Cryptomined](https://www.you
 
 2) Overclock settings are not stable
 
-If your problem isn’t solved by increasing virtual memory, it’s likely due to unstable overclock settings. Try to decrease core and memory overclocks first. If that’s still unstable, you may need to increase your power limit or voltage. 
+If your problem isn’t solved by increasing virtual memory, it’s likely due to unstable overclock settings. Try to decrease core and memory overclocks first. If that’s still unstable, you may need to increase your power limit or voltage.
 
 ## What should I mine?
 
-Most people mine to maximize returns, so picking the most profitable cryptoasset to mine is the natural choice. Use a site like whattomine to input your hashing and power stats to generate a list of the most profitable cryptoassets to mine. This will ensure that you mine the most profitable coin day to day.
+Most people mine to maximize returns, so picking the most profitable cryptoasset to mine is the natural choice. Use a site like whattomine.com to input your hashing and power stats to generate a list of the most profitable cryptoassets to mine. This will ensure that you mine the most profitable coin day to day.
 
-However, it’s important to consider the volatility of the cryptoasset market. Cryptoassets with smaller market capitalization are more volatile than, say, Bitcoin. This means mining and holding less established coins could have tremendous upside but could also lose a lot of value over time. 
+However, it’s important to consider the volatility of the cryptoasset market. Cryptoassets with smaller market capitalization are more volatile than, say, Bitcoin. This means mining and holding less established coins could have tremendous upside but could also lose a lot of value over time.
 
 If you’re comfortable speculating on the price of a cryptoasset, you’ll want to make sure that you believe in the long-term prospects of the cryptoasset you mine. Otherwise, it might be best to convert your mining proceeds to something more stable like Bitcoin (Nicehash will automatically do this for you) or a cryptoasset you believe in.
 
-## Summary 
+## Summary
 
 * Assembly of your miner is relatively straightforward
 * Pay special attention to electrical requirements
@@ -457,4 +461,3 @@ If you’re comfortable speculating on the price of a cryptoasset, you’ll want
 * The “best” mining software, pool, and cryptoasset to mine changes frequently and depends on your personal preferences
 
 [Section 4: Maintenance and Protips >>](section4.mdown)
-

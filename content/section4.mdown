@@ -2,29 +2,29 @@
 
 ## Maintenance
 
-The best kind of mining operation runs itself. It can be more work than its worth if you're constantly checking your rig to make sure the mining software is still running or manually tweaking settings. Luckily, there are a handful of tools that should make it easy to solve the most common issues with minimal or no time. 
+The best kind of mining operation runs itself. It can be more work than its worth if you're constantly checking your rig to make sure the mining software is still running or manually tweaking settings. Luckily, there are a handful of tools that should make it easy to solve the most common issues with minimal or no time.
 
 ### Remote management
 
 Most mining pools have an online monitoring tool that displays your workers and their hashrates over time. However, these sites are usually on a delay of at least thirty minutes and will only show you if there's something wrong--it won't let you fix it.
 
-A better way to check in on your miner is a remote desktop tool. Teamviewer and similar remote desktop management tools are popular, but the easiest and most reliable client I've found is [Chrome Remote Desktop](https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en). It's dead simple to set up and you can access it from computers and phones. 
+A better way to check in on your miner is a remote desktop tool. Teamviewer and similar remote desktop management tools are popular, but the easiest and most reliable client I've found is [Chrome Remote Desktop](https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en). It's dead simple to set up and you can access it from computers and phones.
 
 Chrome Remote Desktop lets you control a connected rig from wherever. I went on a trip recently to a cabin in the mountains and noticed that my ZEC miner wasn't working. I checked on it from my phone (while on a hike) and was able to restart the miner.
 
-Remote management will allow you to solve any issues that come up as long as your rig is still powered on and connected to the internet. 
+Remote management will allow you to solve any issues that come up as long as your rig is still powered on and connected to the internet.
 
 ### Crash automation
 
-What's better than being able to solve issues with your rig from any device? Having your rig solve its own issues. Automating restarts after crashes is easy. 
+What's better than being able to solve issues with your rig from any device? Having your rig solve its own issues. Automating restarts after crashes is easy.
 
 #### Automatically run software
 
-Some miners like Nicehash have a setting to automatically launch and start the miner when the PC powers up. Other miners you can automate with with windows launch scripts. 
+Some miners like Nicehash have a setting to automatically launch and start the miner when the PC powers up. Other miners you can automate with with windows launch scripts.
 
 ##### Launch miner
 
-To launch the miner on startup, simply create a shortcut of the .bat file that launches your mining software and place it in the shell:startup folder. 
+To launch the miner on startup, simply create a shortcut of the .bat file that launches your mining software and place it in the shell:startup folder.
 
 To access the shell:startup folder, open Run, type _shell:startup_ and hit Enter.
 
@@ -34,27 +34,27 @@ The easiest way to launch MSI Afterburner or the overclock utility of your choic
 
 #### Automatically restart software
 
-Many miners have automatic restart built into the software. Nicehash, for example, has a setting that you can check to restart the client whenever it goes down. EWBF's Zcash miner has a setting that will retart the GPUs if it notices they've crashed. Read the docs of your specific miner to figure out how. 
+Many miners have automatic restart built into the software. Nicehash, for example, has a setting that you can check to restart the client whenever it goes down. EWBF's Zcash miner has a setting that will retart the GPUs if it notices they've crashed. Read the docs of your specific miner to figure out how.
 
 #### Automatically restart PC
 
 If your computer crashes, remote management won't help you restart it. Instead, you need to set Power State to AC ON in your motherboard's BIOS settings. You can access your BIOS settings by pressing F2 as your computer boots. The specific location of the power state varies based on motherboard, but this is a universal setting present in all motherboard BIOS.
 
-This will automatically restart your rig during a power outage or after a crash. 
+This will automatically restart your rig during a power outage or after a crash.
 
-To get all of your software running, you need to set up auto-login. 
+To get all of your software running, you need to set up auto-login.
 
-1. Hit Run, type _Netplwiz_ and press Enter. 
-2. Uncheck _Users must enter a user name and password to use this computer" and click Apply
+1. Hit Run, type _Netplwiz_ and press Enter.
+2. Uncheck _Users_ must enter a user name and password to use this computer" and click Apply
 3. Complete the automatically sign in dialogue to set up automatic sign in
 
-Now whenever there's a crash, it'll power back on and automatically sign in. If you've set up your software, it'll then launch your miners and overclock settings and get back to work. 
+Now whenever there's a crash, it'll power back on and automatically sign in. If you've set up your software, it'll then launch your miners and overclock settings and get back to work.
 
 ### Connected plugs
 
-Finally, connected plugs can be useful tools for turning your rigs on and off remotely. These plugs are mostly for peace of mind. If, for whatever reason, you can't access your rig remote management to shut it down, you can shut it down from a connected plug. 
+Finally, connected plugs can be useful tools for turning your rigs on and off remotely. These plugs are mostly for peace of mind. If, for whatever reason, you can't access your rig remote management to shut it down, you can shut it down from a connected plug.
 
-Many plugs also monitor power draw, so you can keep an eye on the total power being used by your miner. 
+Many plugs also monitor power draw, so you can keep an eye on the total power being used by your miner.
 
 ## Protips
 
