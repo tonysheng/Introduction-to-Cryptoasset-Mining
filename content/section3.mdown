@@ -310,7 +310,7 @@ If there are only a few mining programs and they all seem reputable, your best b
 
 The overall profitability of the miner is its hashing performance minus any fees. For example, most Ethereum miners use either Genoil's Ethminer or Claymore. Ethminer doesn't charge a developer fee, but Claymore charges 1%. You'd need Claymore to perform at least 1% better for it to be more profitable than Ethminer.
 
-If you want to always mine the most profitable algorithm you can use a program called Nicehash that will automatically mine the most profitable algorithm and get paid in Bitcoin. 
+If you want to always mine the most profitable algorithm you can use a program called Nicehash that will automatically mine the most profitable algorithm and get paid in Bitcoin for a 4% fee. You can also use Mining Pool Hub that also provides a profit switching option and will allow you to cash out to any coin supported by Mining Pool Hub with a pool fee of 0.9%. 
 
 ### Ease of use and customizability
 
