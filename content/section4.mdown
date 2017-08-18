@@ -14,6 +14,8 @@ Chrome Remote Desktop lets you control a connected rig from wherever. I went on 
 
 Remote management will allow you to solve any issues that come up as long as your rig is still powered on and connected to the internet.
 
+Unless you trip a breaker or a power connection comes loose you can make sure your computer is always powered on by turning on "Turn on A/C power after Power Loss" in your motherboards BIOS. 
+
 ### Crash automation
 
 What's better than being able to solve issues with your rig from any device? Having your rig solve its own issues. Automating restarts after crashes is easy.
