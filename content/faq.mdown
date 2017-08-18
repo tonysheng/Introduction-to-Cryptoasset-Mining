@@ -1,15 +1,27 @@
 # Frequently Asked Questions
 
-_Should I mine multiple coins with my mining rig(s)?_
+##### _Should I mine multiple coins with my mining rig(s)?_
 
 This depends on your strategy with mining. If you are only focused on profit it would be smarter for you to mine the most profitable coin at all times and cash out as often as you can.
 If you are mining to gain a certain cryptoasset then you should mine whatever coins you want to mine whatever cryptoasset you wish to gain as long as it is financially viable whether that be 1 coin or 100.  
 If you are mining then doing day trading with the coins you make, it may be smart to mine multiple coins to account for the fluctuations in each coin and to make sure you aren't holding all your eggs in one basket.
 
-_How can I calculate my profits without a calculator?_
+##### _How can I calculate my profits without a calculator?_
 
 The most accurate equation to determine your profits is: `Your hashrate / network hashrate * reward per block / average block time` This will get you the amount of coins you will earn per day.
 
-_Is Mining a scam?_
+##### _Is Mining a scam?_
 
 You can get scammed through cloud mining but the actual concept of mining is not a scam. As long as you don't get scammed or mislead into thinking this is a way to get rich quick. There is no one controlling these coins and the reason why people are into cryptoassets is because they are all focused on decentralization and their is no one controlling the flow and distribution of the coins, hence no one to scam you. Do your research and make your own educated decisions about whether you want to invest into cryptoasset mining before buying or committing any amount of money.
+
+##### _How do I choose what coin to mine?_
+
+This can either be the most obvious thing or the most difficult thing to decide. First you need to find out what coins are the most profitable and choose 5-10 coins that earn you enough money for your needs. Once you have that list, your need to look into a few things, the developers, the roadmap, the Github page and the price charts.
+
+You need to look at how active the developers are in terms of community interaction and development. Make sure to check where you can reach the developers whether that be Slack, Discord or Reddit. I suggest you hop into a chat group if the coin has one, talk a bit and ask some questions about the coin to see how the community interacts with you.
+
+Even if the community is great around a coin that doesn't mean that the coin is going to go places in the future. You have to then look at the roadmap and the coin's website. Then you get an idea of what problem the coin is trying to accomplish and what their solution is. Examine the roadmap closely and see whats up ahead and whats been accomplished.
+
+A coin may have great ideas but that won't help it if they can't execute them. Next you will have to watch closely how the development team can keep up with their goals and schedules. If the developers can't keep up with the timeline then there is a high chance that the developers aren't very committed to the project. It is understandable if the developers have other commitments to keep up with or a lack of funding for certain projects, but it is a red flag if they are constantly behind development schedule and don't release information on why they are behind schedule or what is holding them back.  
+
+To summarize the main points you need to research on a coin are: the key problems and the coins solutions, the community, the development team, the roadmap, the execution of the roadmap and the communication between the developers and the community.
