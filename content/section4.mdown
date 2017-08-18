@@ -14,6 +14,8 @@ Chrome Remote Desktop lets you control a connected rig from wherever. I went on 
 
 Remote management will allow you to solve any issues that come up as long as your rig is still powered on and connected to the internet.
 
+Unless you trip a breaker or a power connection comes loose you can make sure your computer is always powered on by turning on "Turn on A/C power after Power Loss" in your motherboards BIOS. 
+
 ### Crash automation
 
 What's better than being able to solve issues with your rig from any device? Having your rig solve its own issues. Automating restarts after crashes is easy.
@@ -57,5 +59,14 @@ Finally, connected plugs can be useful tools for turning your rigs on and off re
 Many plugs also monitor power draw, so you can keep an eye on the total power being used by your miner.
 
 ## Protips
+
+__Good subreddits to be subscribed to__
+1. [GPU Mining](https://www.reddit.com/r/gpumining/) all things GPU mining.
+2. The Subreddit of the coin you are mining.
+3. [PC Component Sales](https://www.reddit.com/r/buildapcsales/) to get retail priced GPUs.
+
+__Websites to Check__
+1. [What To Mine](whattomine.com) to find the most profitable coin to mine.
+2. [Bitcoin Talk Altcoin Mining](https://bitcointalk.org/index.php?board=160.0) a forum and news board about altcoin mining.
 
 @TODO - source protips from miners (e.g. communities to follow)

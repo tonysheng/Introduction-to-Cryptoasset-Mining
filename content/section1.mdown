@@ -63,6 +63,7 @@ So like investing in cryptoassets directly, don't invest more money than you're 
 There are a few requirements for mining. If you don't meet any of these requirements, mining is not for you:
 - [ ] You can afford the upfront hardware costs
 - [ ] You can afford to lose my initial investment
+- [ ] You are not looking to get rich quick and you are willing to wait a year for ROI unless we have another mining boom.
 Location:
 - [ ] You have enough space for a mining setup
 - [ ] You have adequate electrical wiring to power your miner
@@ -103,6 +104,6 @@ Second, sometimes a year’s worth of profits can be made in a week. If you hope
 
 Third, deciding how to liquidate mining proceeds has a huge impact on profitability. It all depends on your risk tolerance. You can sell for cash right away, trade for a more stable crypto asset like BTC or ETH rights away, or hold the coin and speculate for future growth.
 
-Many think mining is boring and hands-off. Set it up and forget it—rake in the passive income. This is a viable approach, especially with larger market-cap cryptoassets like Ethereum. However, some of the biggest profits from mining can come from these short periods of hyper-profitability. It’s up to you whether you want to put in the time to find the opportunities and whether you can tolerate the risk of potentially wasting your hashing power. 
+Many think mining is boring and hands-off. Set it up and forget it—rake in the passive income. This is a viable approach, especially with larger market-cap cryptoassets like Ethereum. However, some of the biggest profits from mining can come from these short periods of hyper-profitability. It’s up to you whether you want to put in the time to find the opportunities and whether you can tolerate the risk of potentially wasting your hashing power.
 
 [Section 2: How do I mine? >> ](section2.mdown)
