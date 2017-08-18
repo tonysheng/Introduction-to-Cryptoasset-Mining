@@ -1,0 +1,15 @@
+# Frequently Asked Questions
+
+_Should I mine multiple coins with my mining rig(s)?_
+
+This depends on your strategy with mining. If you are only focused on profit it would be smarter for you to mine the most profitable coin at all times and cash out as often as you can.
+If you are mining to gain a certain cryptoasset then you should mine whatever coins you want to mine whatever cryptoasset you wish to gain as long as it is financially viable whether that be 1 coin or 100.  
+If you are mining then doing day trading with the coins you make, it may be smart to mine multiple coins to account for the fluctuations in each coin and to make sure you aren't holding all your eggs in one basket.
+
+_How can I calculate my profits without a calculator?_
+
+The most accurate equation to determine your profits is: `Your hashrate / network hashrate * reward per block / average block time` This will get you the amount of coins you will earn per day.
+
+_Is Mining a scam?_
+
+You can get scammed through cloud mining but the actual concept of mining is not a scam. As long as you don't get scammed or mislead into thinking this is a way to get rich quick. There is no one controlling these coins and the reason why people are into cryptoassets is because they are all focused on decentralization. Do your research and make your own educated decisions about whether you want to invest into cryptoasset mining before buying or committing any amount of money.
