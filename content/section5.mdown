@@ -1,0 +1,19 @@
+# Section 5: Once you are Done Setting Up
+
+## Converting your coins into fiat
+
+Congratulations! By this time in the book you will have setup your autonomous mining setup but your work is not done. At this point you are mining your coin of choice but you may be wondering how do you convert your coins to real money, also known as fiat.
+
+##### Converting Ethereum and Litecoin Directly to Fiat
+
+The reason I have these specific coins listed is because Coinbase, the fiat conversion site that I recommend you use, allows for 2 altcoins to be converted directly to fiat, Ethereum and Litecoin. Thanks to Coinbase you can skip the altcoin to Bitcoin conversion by doing this instead.
+
+To start you are going to need to create a [Coinbase account](coinbase.com).
+
+@TODO add a picture of the signup page
+
+When you are signing up for your Coinbase Account remember to input the __SAME__ information in the signup page as the information on your bank and/or your paypal account. If you do not put the same information that is on your bank and/or your paypal account you will not be able to cash out your coins.
+
+Now that you have signed up for an account you can navigate to the accounts tab located in the top bar.
+
+@TODO add a picture of the main layout
