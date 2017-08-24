@@ -4,16 +4,82 @@
 
 Congratulations! By this time in the book you will have setup your autonomous mining setup but your work is not done. At this point you are mining your coin of choice but you may be wondering how do you convert your coins to real money, also known as fiat.
 
-##### Converting Ethereum and Litecoin Directly to Fiat
+In this book I will be showing you how to use Coinbase to convert your coins to fiat as I think Coinbase is the most reliable and easiest way to sell your coins for real money. I will also be using Bittrex as an exchange for altcoins to Bitcoins as I also think Bittrex is the most reliable way to convert your altcoins to Bitcoins.
 
-The reason I have these specific coins listed is because Coinbase, the fiat conversion site that I recommend you use, allows for 2 altcoins to be converted directly to fiat, Ethereum and Litecoin. Thanks to Coinbase you can skip the altcoin to Bitcoin conversion by doing this instead.
+#### Coinbase Basic Setup
 
 To start you are going to need to create a [Coinbase account](coinbase.com).
 
-@TODO add a picture of the signup page
+![CoinbaseSignup](../img/coinbase-signup.png)
 
 When you are signing up for your Coinbase Account remember to input the __SAME__ information in the signup page as the information on your bank and/or your paypal account. If you do not put the same information that is on your bank and/or your paypal account you will not be able to cash out your coins.
 
-Now that you have signed up for an account you can navigate to the accounts tab located in the top bar.
+Now that you have finished filling out the forms in the signup page you will now have to verify your email and you will see this screen.
 
-@TODO add a picture of the main layout
+![CoinbasePostSignup](../img/coinbase-post-signup.png)
+
+You need to input your phone number and confirm that phone number when Coinbase sends a verification text to it. Once you have verified your phone number you will see this screen where you will now need to add a bank account or  credit card/debit card to buy and sell your coins.
+
+![CoinbaseAddPaymentMethod](../img/coinbase-payment-method.png)
+
+Here instead of adding a payment account here I recommend you hit I'll do this later. After you hit I'll do this later you will see the Coinbase main layout.
+
+![CoinbaseLayout](../img/coinbase-main-layout.png)
+
+From here you want to hit the settings tab and you will want to click payment methods from the menu below the main Dashboard menu.
+
+![Coinbase-dashboard-payment-method](../img/coinbase-dashboard-menu-payment-methods.png)
+
+Once you click payment methods you will see a screen where you need to click add payment method on the right side of the screen. Then you will recieve a popup where you can choose what payment/recieve account you want to add whether that is your bank account or Paypal.
+
+![Coinbase-Payment-Methods](../img/coinbase-payment-methods-popup.png)
+
+I recommend that you choose bank account if you are not concerned with the time it will take for the coins you sold to show up in your bank account. If you are fine with higher fees you can choose Paypal and get your money instantly.
+
+##### If You Choose to Use Your Bank Account
+
+If you click on the bank account option you will see a screen where you have to select which bank provider to use. If you don't see your bank provider listed you can choose "Other Bank" located at the bottom of the popup menu.
+
+![Coinbase-Bank-Provider](../img/coinbase-bank-provider.png)
+
+If you choose one of the listed options you will be prompted to sign into your bank account to confirm that you own said bank account. Using this method your bank account will instantly confirm and you will be able to sell to that account immediately.
+
+If you choose Other Bank then you will be greeted with a screen where you can input your name, routing number and account number. You will also need to select what type of bank account you have whether that be a checking account, savings account or business checking account.
+
+![Coinbase-Other-Bank](../img/coinbase-other-bank.png)
+
+ Since your bank account wasn't listed you will have to wait a few days for Coinbase to send a few small transactions to that bank and you will have to input how much was sent to your bank account to verify that you own the bank account.
+
+##### If You chose to Use Paypal Instead
+
+If you chose Paypal you will be greeted with a screen where you need to verify your identity with either a photo identity or a drivers license.
+
+After you verify your identity you will be redirected to Paypal to confirm that you own the Paypal account.
+
+#### Converting Ethereum and Litecoin Directly to Fiat
+
+The reason I have these specific coins listed is because Coinbase, the fiat conversion site that I recommend you use, allows for 2 altcoins to be converted directly to fiat, Ethereum and Litecoin. Thanks to Coinbase you can skip the altcoin to Bitcoin conversion by doing this instead.
+
+You want to navigate into the accounts tab located in the top of the layout. From there you can see you have a few wallets available, BTC, LTC and Ethereum. You will also see a BTC vault option but we will not be covering that in this book. Since this section will be about convert Ethereum and Litecoin to fiat we will also ignore the BTC wallet too.
+
+![Coinbase-Wallets-Layout](../img/coinbase-accounts-layout.png)
+
+Now you can click the receive button next to the coin you wish to deposit to. This will create a wallet address for you to deposit your coins to. Now you can send your coins from your local wallet to the Coinbase wallet.
+
+Now that you have your coins in your Coinbase wallet now we will move onto the process of actually getting your coins to your bank account.
+
+If you followed the Coinbase setup that I talked about earlier in this section you will have already setup a payment method where you will receive your fiat, if you have not you will need to do so before continuing.
+
+Now you want to navigate to the Buy and Sell tab located to the left of the Accounts tab. You will now see a page where you can buy and sell your coins.
+
+![Coinbase-Buy-and-Sell](../img/coinbase-sell-coins.png)
+
+You will normally have the Buy tab selected when you enter the Buy and Sell tab but you can simply click the sell tab to get to the screen shown above.
+
+Now you can select which wallet you want to sell your coins from with the "Sell From" drop down. Then you can select where you want your money to go after you sell your coins with the "Deposit To" drop down.
+
+Then below that you can select how many coins you want to sell in the "Amount" section. To the right of that you will see the USD value of your sell. Below that you can choose whether you want to repeat the sell in a certain time frame, I recommend you manually sell to account for fluctuations in each coins price.
+
+Now you can hit sell and you will receive the money in your bank account in 2-3 days or instantly if you are selling to a Paypal account.
+
+#### Bittrex Basic Setup
