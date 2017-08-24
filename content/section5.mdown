@@ -83,3 +83,49 @@ Then below that you can select how many coins you want to sell in the "Amount" s
 Now you can hit sell and you will receive the money in your bank account in 2-3 days or instantly if you are selling to a Paypal account.
 
 #### Bittrex Basic Setup
+
+Now that we have covered Coinbase setup and how you can directly convert your ETH or LTC to fiat, we will now talk about how to setup Bittrex. You will need to go through an exchange like Bittrex if you have a coin besides ETH, LTC and BTC you will have to exchange the altcoin for Bitcoin then sell through Coinbase.
+
+If you don't have an account already you can make one. [Bittrex Signup](https://bittrex.com/account/Register)
+The signup is very simple and just requires an email and a password.
+
+Login and you will be greeted by the Bittrex Homepage.
+![Bittrex-Homepage](../img/bittrex-home.png)
+
+From here you can access your wallets and view the BTC markets from the top menu bar.
+
+To deposit your coins into Bittrex click the menu option that says "฿ Wallets" Now you will be led to a screen where it will show all of the wallets supported by Bittrex.
+![Bittrex-Wallets](../img/bittrex-wallets.png)
+From here you can search for your coin with the search bar in the top right of "Account Balances." To get the address where you can deposit your coins into the altcoins wallet on Bittrex, hit the + sign located to the left of the coins name. Once you hit the plus sign you will get a popup where you will generate a new address.
+![Bittrex-Deposit](../img/bittrex-deposit.png)
+Here you can hit new address and that will generate a new address for you to deposit your coins into from your local wallet.
+
+#### Selling Your Altcoins for Bitcoin
+
+Now that you have Bittrex setup you can send your coins to the Bittrex wallet address that was just generated for the coin you selected. Once you send the coins you will see the deposit pending located below "Account Balances." Once the coins have confirmed your will see them in the "Available Balance" located to the right of the symbol dropdown in "Account Balances." Now you will have to wait for your transaction to confirm before you can sell your coins.
+
+Once your coins have confirmed and are in the Bittrex wallet you can navigate to said coin's market by clicking the "฿ Markets" tab in the top left. It will then show a dropdown where you can search your coin's ticker and then you can click the coins ticker in the dropdown to navigate to the market page.
+
+![Bittrex-Market-Search](../img/bittrex-market-search.png)
+Once you are at the coins market page you will see an assortment of graphs and boxes which can be very confusing at times.
+![Bittrex-Coin-Market](../img/bittrex-coin-market.png)
+From here you can view how many coins you have in your wallet, the market timeline in a candlestick format and the order book.
+
+The main things that we will be focused on will be the "BID" price and the trading section located below the "Information" section.
+![Bittrex-Trading-Tab](../img/bittrex-trading-tab.png)
+
+From the trading tab you can see the Buy and Sell sections on the right and left. Since this book is about mining and not trading I will ignore the Buy tab and we will only focus on the Sell tab.
+
+In the sell tab you see 4 boxes: Units, Ask, Type and Total ฿.
+
+ In the "Units" box you need to put in how many coins you want to sell, if you want to sell all of your coins you can hit the max button to put all of your coins in the sell order.
+
+ In the "Ask" box you have to input how much BTC you want per coin. If you want to sell at the current ask price, the current bid price or the last price the coin was sold at just hit the "Price" dropdown and select an option. You can also input a custom VTC -> BTC exchange rate.
+
+ In the "Type" box you can select what type of sell order you want to put out. The "Limit" order is when your order will only sell at a certain user specified price. The other option you can select is "Conditional," a conditional order is when you set your coins to sell at a price greater then or equal to x amount of BTC. There is very little difference between each option and most users will use the "Limit" order for simplicity.
+
+To the right of the "Type" box you can see "Time in Force." Time in Force allows you too select when you want your order cancelled. The default option is "Good 'Til Cancelled." Good 'Til Cancelled means that your order will be out forever until it is filled or you manually cancel it. You can also select the "Immediate or Cancel" option which cancels your order if the whole order can't be sold in entirety immediately.
+
+Finally at the bottom of the sell box you have the Total BTC you will get for your sell order.
+
+Now that you have filled out all the options you can hit the sell Coin button and recieve your
