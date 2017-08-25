@@ -201,13 +201,31 @@ If your PSU has enough 6+2-pin (often labeled as VGA) slots to power both your r
 
 We’ll explore this topic more in Section 3.
 
+#### Cases/Frames
+
+The case can be a factor that can make or break you setup. Without the proper case or frame design your GPUs could overheat or your rig could even become a fire hazard. The most common frames nowadays look something like this
+![GPU Mining Frame](../img/mining-frame.png)
+There have been other designs that have been used in the past but this is the currently the frame that most miners use. This design allows for a clean design without much clutter. The GPUs can get enough airflow with this design and you are supporting the GPUs with a solid wood or metal bar.
+
+Another method that I personally use is the zip tie method where you hang your GPU's vertically with zip ties.
+![Zip Tie Mining Frame](../img/frame-ziptie.png)
+There are no real differences in performance between this frame and the more popular frame with a solid bar to support the GPUs. The main thing this comes down to is what resources you have availible to cut down on costs. If you do decide to use this method I strongly recommend you go out and buy high quality zip ties and not to buy the zip ties that you could find at your dollar store.
+
+The last frame I will be covering is the milk crate frame.
+![Milk Crate Mining Frame](../img/milk-crate-rig.png)
+This was a very popular frame back when GPU mining Litecoin and Bitcoin was very profitable and people were normally using 3-4 cards vs nowadays we use 6-13 card rigs. Due to the size constraints of milk crates this design was abandoned due to a less then optimal amount of airflow and the inability to hold more then 3-4 GPUs comfortably.
+
+This design may not be the best choice in this day and age but it is definitely a viable choice for smaller mining rigs due to its ability to offer a compact and solid frame work to setup your mining rig.
+
+I have only listed 3 different designs in this passage on frames/cases but by now means does that mean these are the only viable case designs. Many other people have used other designs for their mining rigs that work for their situation and I recommend you weigh the pros and cons of each design and make your own decision based on your specific situation.
+
 #### Other
 
 Some other components you will need include
 * SSD: for storage. 32GB is almost always enough. An SSD is a good idea simply for the convenience of faster boot times. You might go through lots of trial and error setting up your miner. An extra minute or two for each reboot can add up.
 * SATA cable: some of the time your motherboard will not come with a SATA cable (most of the time when buying used.)
 * On-off switch: to turn on and off your miner (Optional.) You can use a screw driver and touch the 2 pins of your motherboard that control the power state of the computer. Also some motherboards have built in power switches, most common in ASUS motherboards.
-* Wifi stick: to connect to the internet if an ethernet connection is not available. If you have multiple mining rigs in one location it will normally be more cost effective to buy a [wireless range extender] (https://www.amazon.com/Amped-Wireless-Wireless-N-Repeater-SR10000/dp/B005UBNGY6/ref=sr_1_3?ie=UTF8&qid=1502992270&sr=8-3&keywords=amped+wireless+range+extender) and connecting your rigs to the internet with ethernet cables.
+* Wifi stick: to connect to the internet if an ethernet connection is not available. If you have multiple mining rigs in one location it will normally be more cost effective to buy a [wireless range extender](https://www.amazon.com/Amped-Wireless-Wireless-N-Repeater-SR10000/dp/B005UBNGY6/ref=sr_1_3?ie=UTF8&qid=1502992270&sr=8-3&keywords=amped+wireless+range+extender) and connecting your rigs to the internet with ethernet cables.
 * Keyboard, mouse, and monitor: you'll need to be able to connect each of these to your rig to set it up. In the future, you can set up remote desktop to manage it without a monitor, but it's easier to have these hardware to start.
 * USB stick: for installing Windows. You will not need to buy a windows copy. Many new miners spend unnecesary money on getting windows copies. Instead you can get a free [Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10ISO) and leaving it unregistered.
 

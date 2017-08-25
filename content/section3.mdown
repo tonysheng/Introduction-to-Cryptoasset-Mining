@@ -306,11 +306,17 @@ There are usually only a couple mining programs in use for a given cryptoasset, 
 
 If there are only a few mining programs and they all seem reputable, your best bet is to just try each of them and see which you prefer. Some things to consider when assessing programs: developer fee, whether or not it has active developers, mining speed on specific algorithm compared to other programs.
 
+##### Dual Mining Explained
+
+Dual mining, done with the nanopool claymore dual miner is a method many people use to squeeze as much profitability out of their graphics cards. Ethash is a very memory dependent algorithm relying on the memory speed much more than the core speed, hence why many miners turn down the core clock to reduce power consumption while being able to keep the memory clock high.
+
+Dual mining is the concept of mining a coin with the Ethash algorithm (most commonly Ethereum is mined) and using as much power from the memory and core clock as the miner needs, but in the end you will end up with unutilized power in the core clock. Since you have extra unutilized power in the core clock, you can use that extra power to mine another coin to use the rest of your GPUs resources. You might wonder why only certain algorithms can be dual mined with Ethash and thats because you only can mine other coins that have algorithms that are core clock dependent and not memory dependent since you are already using the memory bandwidth with Ethash.
+
 ### Profitability
 
 The overall profitability of the miner is its hashing performance minus any fees. For example, most Ethereum miners use either Genoil's Ethminer or Claymore. Ethminer doesn't charge a developer fee, but Claymore charges 1%. You'd need Claymore to perform at least 1% better for it to be more profitable than Ethminer.
 
-If you want to always mine the most profitable algorithm you can use a program called Nicehash that will automatically mine the most profitable algorithm and get paid in Bitcoin for a 4% fee. You can also use Mining Pool Hub that also provides a profit switching option and will allow you to cash out to any coin supported by Mining Pool Hub with a pool fee of 0.9%. 
+If you want to always mine the most profitable algorithm you can use a program called Nicehash that will automatically mine the most profitable algorithm and get paid in Bitcoin for a 4% fee. You can also use Mining Pool Hub that also provides a profit switching option and will allow you to cash out to any coin supported by Mining Pool Hub with a pool fee of 0.9%.
 
 ### Ease of use and customizability
 
@@ -328,7 +334,7 @@ Miner | Supported cryptoassets | Pros | Cons
 [Claymore](https://bitcointalk.org/index.php?topic=1433925.0) Dual Ethereum Miner | ETH, DCR, LBRY, SIA
 [EWBF's CUDA Zcash Miner](https://bitcointalk.org/index.php?topic=1707546.0) | ZEC | Efficient | No AMD support
 [Nicehash Miner](https://bitcointalk.org/index.php?topic=1274983.0) | Close to all | Automatically picks most profitable cryptoassets to mine, pays out in BTC | Higher fees
-[ccminer](https://bitcointalk.org/index.php?topic=826901.0) | Various Altcoins (e.g. Groestl, X11) | Supports less common cryptoassets | ??
+[ccminer](https://bitcointalk.org/index.php?topic=826901.0) | Various Algorithms (e.g. Groestl, X11) | Supports less common cryptoassets | No fees depending on what version you get
 
 Which miner you use depends largely on the cryptoasset you want to mine. If you want Bitcoin, Nicehash is the way to go. If you want Ethereum, try both Ethminer and Claymore. If you want to dual mine, Claymore is the only way to go.
 

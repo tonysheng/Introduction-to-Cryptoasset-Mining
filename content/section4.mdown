@@ -14,8 +14,6 @@ Chrome Remote Desktop lets you control a connected rig from wherever. I went on 
 
 Remote management will allow you to solve any issues that come up as long as your rig is still powered on and connected to the internet.
 
-Unless you trip a breaker or a power connection comes loose you can make sure your computer is always powered on by turning on "Turn on A/C power after Power Loss" in your motherboards BIOS. 
-
 ### Crash automation
 
 What's better than being able to solve issues with your rig from any device? Having your rig solve its own issues. Automating restarts after crashes is easy.
@@ -36,7 +34,7 @@ The easiest way to launch MSI Afterburner or the overclock utility of your choic
 
 #### Automatically restart software
 
-Many miners have automatic restart built into the software. Nicehash, for example, has a setting that you can check to restart the client whenever it goes down. EWBF's Zcash miner has a setting that will retart the GPUs if it notices they've crashed. Read the docs of your specific miner to figure out how.
+Many miners have automatic restart built into the software. Nicehash, for example, has a setting that you can check to restart the client whenever it goes down. EWBF's Zcash miner has a setting that will restart the GPUs if it notices they've crashed. Read the docs of your specific miner to figure out how.
 
 #### Automatically restart PC
 
@@ -68,5 +66,6 @@ __Good subreddits to be subscribed to__
 __Websites to Check__
 1. [What To Mine](whattomine.com) to find the most profitable coin to mine.
 2. [Bitcoin Talk Altcoin Mining](https://bitcointalk.org/index.php?board=160.0) a forum and news board about altcoin mining.
+3. [BitsBeTrippin Youtube]()
 
 @TODO - source protips from miners (e.g. communities to follow)
